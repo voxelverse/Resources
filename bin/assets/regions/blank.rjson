@@ -1,0 +1,24 @@
+{
+    "region": [
+		{
+             "model": {
+                "fileName": "Blank",
+				"baseLightLevel": "128"
+            }
+
+		}
+    ]
+	,
+	"skyColor": {
+                    "r": 192,
+                    "g": 172,
+                    "b": 238
+                },
+	"gravity": false,
+	"collide": false,
+	"playerPosition": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 300
+                }
+}

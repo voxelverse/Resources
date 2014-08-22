@@ -1,0 +1,14 @@
+{
+    "model": {
+        "template": "true",
+        "editable": "true",
+        "biomes": {
+            "layers": [
+                {
+                    "data": "CannonBall",
+                    "functionName": "LoadModelFromIVM"
+                }
+            ]
+        }
+    }
+}

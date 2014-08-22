@@ -1,0 +1,9 @@
+{
+	"config" : {
+		"region": { "startingRegion":"LightTest"  },
+		"typeName" : "types.json",
+		"showHelp" : false,
+		"showButtons" : true,
+		"showEditMenu" : true
+	}
+}
