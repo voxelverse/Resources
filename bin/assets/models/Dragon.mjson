@@ -21,11 +21,11 @@
 		  "seatLocation": { "x":8, "y":12, "z":23 }
 		},
         "animations": [
-            { "name": "Fly" },
-			{ "name": "Glide" },
-			{ "name": "Land" },
-			{ "name": "Walk" },
-			{ "name": "Dive" }
+            { "name": "Fly", "type": "state", "guid":"Fly.ajson" },
+			{ "name": "Glide", "type": "state", "guid":"Glide.ajson" },
+			{ "name": "Land", "type": "state", "guid":"Land.ajson" },
+			{ "name": "Walk", "type": "state", "guid":"Walk.ajson" },
+			{ "name": "Dive", "type": "state", "guid":"Dive.ajson" }
 		],
         "children": [
             {
