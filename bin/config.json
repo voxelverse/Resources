@@ -1,6 +1,6 @@
 {
 	"config" : {
-		"region": { "startingRegion":"LightTest"  },
+		"region": { "startingRegion":"AlexaIsland"  },
 		"typeName" : "types.json",
 		"showHelp" : false,
 		"showButtons" : true,

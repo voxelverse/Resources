@@ -1,8 +1,0 @@
-User-agent: * 
-Disallow: /models/
-Disallow: /quests/
-Disallow: /sounds/
-Disallow: /textures/
-
-
- 
