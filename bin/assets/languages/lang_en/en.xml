@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<lang locale="en" name="English" variant="English">
+	<copy id="Voxel_Model">			<![CDATA[Voxel Model]]></copy>
+	<copy id="Sandbox_List">		<![CDATA[Sandbox List]]></copy>
+	<copy id="Add_Parent_Model">	<![CDATA[Add Parent Model...]]></copy>
+	<copy id="Delete_Parent_Model">	<![CDATA[Delete Parent Model]]></copy>
+	<copy id="Parent_Detail">		<![CDATA[Parent Detail]]></copy>
+	<copy id="New_Model">			<![CDATA[New Model]]></copy>
+	<copy id="Oxel_Utils">			<![CDATA[Oxel Utils]]></copy>
+	<copy id="Add_Child_Model">		<![CDATA[Add Child Model]]></copy>
+	<copy id="Delete_Child_Model">	<![CDATA[Delete Child Model]]></copy>
+	<copy id="Add_Animation">		<![CDATA[Add Animation]]></copy>
+	<copy id="Delete_Animation">	<![CDATA[Delete Animation]]></copy>
+	<copy id="Edit_Animation">		<![CDATA[Edit Animation]]></copy>
+	<copy id="Import_Animation">	<![CDATA[Import Animation]]></copy>
+	<copy id="No_Model_Selected">	<![CDATA[No Model Selected]]></copy>
+	
+	
+	<bundle id="texts">
+		<copy id="message1" >
+			<![CDATA[<p>This is a message bundled insdide a ResouceBundle.</p>]]>
+		</copy>		
+	</bundle>
+</lang>
