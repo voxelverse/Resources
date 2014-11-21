@@ -1,16 +1,17 @@
 {
-    "forumla": {
+    "recipe": {
 		"name": "Pick",
 		"desc": "Used to remove stone, metal, gems",
 		"category": "tool",
-		"materials": [ { "material": { "category": "wood", "quantity": 2 } },
+		"preview": "pick.png",
+		"materials": [ { "material": { "category": "plant", "quantity": 2 } },
 					   { "material": { "category": "metal", "quantity": 2 } },
 					   { "material": { "category": "leather", "quantity": 1, "optional":true } }
 		],
 		"bonuses": 	 [ { "bonus": { "category": "damage", "optional":true } },
 					   { "bonus": { "category": "speed", "optional":true } },
 					   { "bonus": { "category": "durability", "optional":true } },
-					   { "bonus": { "category": "any", "optional":true } }
+					   { "bonus": { "category": "luck", "optional":true } }
 		]
 	}
 }
