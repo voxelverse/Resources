@@ -1,7 +1,7 @@
 {
     "types": [
         {
-            "name": "AIR",
+            "name": "Air",
             "image": "invalid.png",
             "id": 100,
             "category": "AIR",
@@ -17,7 +17,7 @@
             "comment": "Air is not alpha, since if it is, it makes me allocate a alpha vertex buffer"
         },
         {
-            "name": "GRASS",
+            "name": "Grass",
             "image": "grass.png",
             "id": 101,
             "category": "EARTH",
@@ -102,7 +102,7 @@
             "comment": "Grass uses a different tiling system on the sides, 2 is sample around vertical center"
         },
         {
-            "name": "DIRT",
+            "name": "Dirt",
             "image": "dirt.png",
             "id": 102,
             "category": "EARTH",
@@ -121,7 +121,7 @@
             }
         },
         {
-            "name": "SAND",
+            "name": "Sand",
             "image": "sand.png",
             "id": 103,
             "category": "EARTH",
@@ -224,7 +224,7 @@
             }
         },
         {
-            "name": "GRAVEL",
+            "name": "Gravel",
             "image": "gravel.png",
             "id": 105,
             "category": "EARTH",
@@ -243,7 +243,7 @@
             }
         },
         {
-            "name": "PLANK",
+            "name": "Wooden Plank",
             "image": "plank.png",
             "id": 106,
             "category": "PLANT",
@@ -262,7 +262,7 @@
             }
         },
         {
-            "name": "WATER",
+            "name": "Water",
             "image": "water.png",
             "id": 107,
             "category": "LIQUID",
@@ -303,7 +303,7 @@
             }
         },
         {
-            "name": "LEAF",
+            "name": "Generica Leaf",
             "image": "leaf.png",
             "id": 109,
             "category": "PLANT",
@@ -332,7 +332,7 @@
             }
         },
         {
-            "name": "BARK",
+            "name": "Generic Wood",
             "image": "bark.png",
             "id": 110,
             "category": "PLANT",
@@ -349,7 +349,7 @@
             }
         },
         {
-            "name": "LAVA",
+            "name": "Lava",
             "image": "lava.png",
             "id": 111,
             "category": "LIQUID",
@@ -464,7 +464,7 @@
             }
         },
         {
-            "name": "RED",
+            "name": "Red Block",
             "image": "red.png",
             "id": 112,
             "category": "UTIL",
@@ -476,7 +476,7 @@
             }
         },
         {
-            "name": "BLUE",
+            "name": "Blue Block",
             "image": "blue.png",
             "id": 113,
             "category": "UTIL",
@@ -488,7 +488,7 @@
             }
         },
         {
-            "name": "GREEN",
+            "name": "Green Block",
             "image": "green.png",
             "id": 114,
             "category": "UTIL",
@@ -500,7 +500,7 @@
             }
         },
         {
-            "name": "CLOUD",
+            "name": "Cloud",
             "image": "cloud.png",
             "id": 115,
             "category": "AIR",
@@ -527,7 +527,7 @@
 			
         },
         {
-            "name": "BALLOON",
+            "name": "Solidified Floatium",
             "image": "balloon.png",
             "id": 116,
             "category": "UTIL",
@@ -539,7 +539,7 @@
             }
         },
         {
-            "name": "ROPE",
+            "name": "Rope",
             "image": "rope.png",
             "id": 117,
             "category": "UTIL",
@@ -558,7 +558,7 @@
             }
         },
         {
-            "name": "IRON",
+            "name": "Refined Iron",
             "image": "iron.png",
             "id": 118,
             "category": "METAL",
@@ -570,7 +570,7 @@
             }
         },
         {
-            "name": "WALL",
+            "name": "Stone Wall",
             "image": "stonewall.png",
             "id": 120,
             "category": "EARTH",
@@ -589,7 +589,7 @@
             }
         },
         {
-            "name": "COPPER",
+            "name": "Refined Copper",
             "image": "copper.png",
             "id": 121,
             "category": "METAL",
@@ -614,7 +614,7 @@
             }
         },
         {
-            "name": "BRONZE",
+            "name": "Refined Bronze",
             "image": "bronze.png",
             "id": 122,
             "category": "METAL",
@@ -639,7 +639,7 @@
             }
 		},
         {
-            "name": "STEEL",
+            "name": "Refined Steel",
             "image": "steel.png",
             "id": 123,
             "category": "METAL",
@@ -664,7 +664,7 @@
             }
         },
         {
-            "name": "GLASS",
+            "name": "Clear Glass",
             "image": "glass.png",
             "id": 124,
             "category": "GLASS",
@@ -689,7 +689,7 @@
 			}
         },
         {
-            "name": "BRAND",
+            "name": "Life Free or Die",
             "image": "yourbrandhere.png",
             "id": 129,
             "category": "UTIL",
@@ -708,7 +708,7 @@
             }
         },
         {
-            "name": "SKIN",
+            "name": "Avatar Skin",
             "image": "skin.png",
             "id": 130,
             "category": "AVATAR",
@@ -733,7 +733,7 @@
             }
         },
         {
-            "name": "SCLRED",
+            "name": "Red Dragon Scale",
             "image": "scaleRed.png",
             "id": 131,
             "category": "DRAGON",
@@ -752,7 +752,7 @@
             }
         },
         {
-            "name": "SCLREDT",
+            "name": "Translucent Red Dragon Scale",
             "image": "scaleRedT.png",
             "id": 132,
             "category": "DRAGON",
@@ -777,7 +777,7 @@
             }
         },
         {
-            "name": "SCLWHT",
+            "name": "White Dragon Scale",
             "image": "scaleWhite.png",
             "id": 133,
             "category": "DRAGON",
@@ -802,7 +802,7 @@
             }
         },
         {
-            "name": "SCLWHTT",
+            "name": "Translucent White Dragon Scale",
             "image": "scaleWhite.png",
             "id": 134,
             "category": "DRAGON",
@@ -827,7 +827,7 @@
             }
         },
         {
-            "name": "DragonFire",
+            "name": "Dragon Fire",
             "image": "dragonFire.png",
             "id": 135,
             "category": "DRAGON",
@@ -855,7 +855,7 @@
             }
         },
         {
-            "name": "DragonIce",
+            "name": "Dragon Ice",
             "image": "dragonIce.png",
             "id": 136,
             "category": "DRAGON",
@@ -871,7 +871,7 @@
             }
         },
         {
-            "name": "DragonAcid",
+            "name": "Dragon Acid",
             "image": "dragonAcid.png",
             "id": 137,
             "category": "DRAGON",
@@ -884,7 +884,7 @@
             }
         },
         {
-            "name": "DragonWater",
+            "name": "Dragon Water",
             "image": "water.png",
             "id": 138,
             "category": "UTIL",
@@ -900,7 +900,7 @@
             }
         },
         {
-            "name": "DragonEarth",
+            "name": "Dragon Earth",
             "image": "stone.png",
             "id": 139,
             "category": "UTIL",
@@ -916,7 +916,7 @@
             }
         },
         {
-            "name": "DragonAcid",
+            "name": "Dragon Acid",
             "image": "stone.png",
             "id": 140,
             "category": "UTIL",
@@ -932,7 +932,7 @@
             }
         },
         {
-            "name": "MUD",
+            "name": "Mud",
             "image": "mud.png",
             "id": 141,
             "category": "EARTH",
@@ -946,7 +946,7 @@
             }
         },
         {
-            "name": "QSAND",
+            "name": "Quick Sand",
             "image": "quicksand.png",
             "id": 142,
             "category": "EARTH",
@@ -972,7 +972,7 @@
             }
         },
         {
-            "name": "OBSIDIAN",
+            "name": "Obsidian",
             "image": "obsidian.png",
             "id": 143,
             "category": "EARTH",
@@ -992,7 +992,7 @@
             }
         },
         {
-            "name": "FLOATIUM",
+            "name": "Floatium",
             "image": "floatium.png",
             "id": 144,
             "category": "AIR",
@@ -1102,7 +1102,7 @@
             }
         },
         {
-            "name": "BURNING",
+            "name": "Burning Item",
             "image": "ash_burning.png",
             "id": 145,
             "category": "PLANT",
@@ -1219,7 +1219,7 @@
             }
         },
         {
-            "name": "DIAMOND",
+            "name": "Diamond",
             "image": "diamond.png",
             "id": 146,
             "category": "GEM",
@@ -1232,7 +1232,7 @@
             }
         },
         {
-            "name": "COAL",
+            "name": "Coal",
             "image": "coal.png",
             "id": 147,
             "category": "STONE",
@@ -1257,7 +1257,7 @@
             }
         },
         {
-            "name": "ICE",
+            "name": "Ice",
             "image": "ice.png",
             "id": 148,
             "category": "LIQUID",
@@ -1276,7 +1276,7 @@
             }
         },
         {
-            "name": "MIST",
+            "name": "Mist",
             "image": "mist.png",
             "id": 149,
             "category": "AIR",
@@ -1308,7 +1308,7 @@
             }
         },
         {
-            "name": "LEFT",
+            "name": "Left Eye",
             "image": "eye.png",
             "id": 150,
             "category": "AVATAR",
@@ -1327,7 +1327,7 @@
             }
         },
         {
-            "name": "RIGHT",
+            "name": "Right Eye",
             "image": "eye.png",
             "id": 151,
             "category": "AVATAR",
@@ -1346,7 +1346,7 @@
             }
         },
         {
-            "name": "VINE",
+            "name": "Vine",
             "image": "vine.png",
             "id": 152,
             "category": "PLANT",
@@ -1365,7 +1365,7 @@
             }
         },
         {
-            "name": "REDG",
+            "name": "Red Glass",
             "image": "redglass.png",
             "id": 153,
             "category": "GLASS",
@@ -1391,7 +1391,7 @@
 			}
         },
         {
-            "name": "GREENG",
+            "name": "Green Glass",
             "image": "greenGlass.png",
             "id": 154,
             "category": "GLASS",
@@ -1417,7 +1417,7 @@
 			}
         },
         {
-            "name": "COLORG",
+            "name": "Custom Color Glass(not implemented yet)",
             "image": "colorWheelG.png",
             "id": 167,
             "category": "GLASS",
@@ -1442,7 +1442,7 @@
 			}
         },
         {
-            "name": "COLOR",
+            "name": "Custom Color Light(not implemented yet)",
             "image": "colorWheel.png",
             "id": 165,
             "category": "EARTH",
@@ -1488,8 +1488,36 @@
                 "vb": 0.875
             }
         },
+		{
+            "name": "Rabbit's Foot",
+            "image": "questionMark.png",
+            "id": 800,
+            "category": "Luck",
+            "placeable": "true"
+        },
+		{
+            "name": "Mark of Hercules",
+            "image": "questionMark.png",
+            "id": 801,
+            "category": "Damage",
+            "placeable": "true"
+        },
+		{
+            "name": "Mercury's Whiskers",
+            "image": "questionMark.png",
+            "id": 802,
+            "category": "Speed",
+            "placeable": "true"
+        },
+		{
+            "name": "Reliable Tool",
+            "image": "questionMark.png",
+            "id": 803,
+            "category": "Durability",
+            "placeable": "true"
+        },
         {
-            "name": "REDL",
+            "name": "Red Light",
             "image": "lightRed.png",
             "id": 990,
             "category": "LIGHT",
@@ -1531,7 +1559,7 @@
             }
         },
         {
-            "name": "BLUEL",
+            "name": "Bright Blue Light",
             "image": "lightBlue.png",
             "id": 991,
             "category": "LIGHT",
@@ -1573,7 +1601,7 @@
             }
         },
         {
-            "name": "GREENL",
+            "name": "Green Light",
             "image": "lightGreen.png",
             "id": 992,
             "category": "LIGHT",
@@ -1615,7 +1643,7 @@
             }
         },
         {
-            "name": "WHITEL",
+            "name": "Bright White Light",
             "image": "lightWhite.png",
             "id": 993,
             "category": "LIGHT",
@@ -1657,7 +1685,7 @@
             }
         },
         {
-            "name": "WHITELD",
+            "name": "Dim White Light",
             "image": "lightWhite.png",
             "id": 994,
             "category": "LIGHT",
