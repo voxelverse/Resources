@@ -18,6 +18,7 @@
         },
         {
             "name": "Grass",
+            "countColor": 255,
             "image": "grass.png",
             "id": 101,
             "category": "EARTH",
@@ -124,6 +125,7 @@
             "name": "Sand",
             "image": "sand.png",
             "id": 103,
+            "countColor": 255,
             "category": "EARTH",
             "uv": {
                 "maxpix": 256,
@@ -140,7 +142,7 @@
             }
         },
         {
-            "name": "STONE",
+            "name": "Stone",
             "image": "stone.png",
             "id": 104,
             "category": "EARTH",
@@ -259,7 +261,12 @@
                 "vs": 0.25,
                 "ub": 0.375,
                 "vb": 0.25
-            }
+            },
+			"stats": { 
+				"damage": 1,
+				"speed": 1,
+				"durability": 1
+			}
         },
         {
             "name": "Water",
@@ -503,6 +510,7 @@
             "name": "Cloud",
             "image": "cloud.png",
             "id": 115,
+            "countColor": 255,
             "category": "AIR",
             "solid": "false",
             "color": {
@@ -1260,6 +1268,7 @@
             "name": "Ice",
             "image": "ice.png",
             "id": 148,
+            "countColor": 255,
             "category": "LIQUID",
             "uv": {
                 "maxpix": 256,
@@ -1279,6 +1288,7 @@
             "name": "Mist",
             "image": "mist.png",
             "id": 149,
+            "countColor": 255,
             "category": "AIR",
             "solid": "false",
             "flowable": [
@@ -1366,6 +1376,7 @@
         },
         {
             "name": "Red Glass",
+            "countColor": 255,
             "image": "redglass.png",
             "id": 153,
             "category": "GLASS",
@@ -1420,7 +1431,7 @@
             "name": "Custom Color Glass(not implemented yet)",
             "image": "colorWheelG.png",
             "id": 167,
-            "category": "GLASS",
+            "category": "EARTH",
             "color": {
                 "r": 1,
                 "g": 1,
@@ -1492,29 +1503,41 @@
             "name": "Rabbit's Foot",
             "image": "questionMark.png",
             "id": 800,
-            "category": "Luck",
-            "placeable": "true"
-        },
+            "countColor": 255,
+            "category": "Crafting",
+            "subCat": "Luck",
+            "placeable": "true",
+			"stats": { "luck": 3 }
+		},
 		{
             "name": "Mark of Hercules",
             "image": "questionMark.png",
             "id": 801,
-            "category": "Damage",
-            "placeable": "true"
-        },
-		{
+            "countColor": 255,
+            "category": "Crafting",
+            "subCat":  "Damage",
+            "placeable": "true",
+			"stats": { "damage": 3 }
+		},
+        {
             "name": "Mercury's Whiskers",
             "image": "questionMark.png",
             "id": 802,
-            "category": "Speed",
-            "placeable": "true"
+            "countColor": 255,
+            "category": "Crafting",
+            "subCat":  "Speed",
+            "placeable": "true",
+			"stats": { "speed": 3 }
         },
 		{
             "name": "Reliable Tool",
             "image": "questionMark.png",
             "id": 803,
-            "category": "Durability",
-            "placeable": "true"
+            "category": "Crafting",
+            "countColor": 255,
+            "subCat":  "Durability",
+            "placeable": "true",
+			"stats": { "durability": 3 }
         },
         {
             "name": "Red Light",

@@ -3,6 +3,7 @@
         "editable": false,
         "template": "false",
         "modelClass": "Player",
+        "name": "Bob",
         "biomes": {
             "layers": [
                 {

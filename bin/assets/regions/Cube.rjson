@@ -3,7 +3,8 @@
         {
              "model": {
                 "fileName": "GenerateCube",
-				"grainSize": 8,
+				"grainSize": 6,
+				"type" : "Water",
                 "location": {
                     "x": 0,
                     "y": 0,
@@ -32,13 +33,13 @@
 	"skyColor": {
                     "r": 192,
                     "g": 172,
-                    "b": 238
+                    "b": 0
                 },
 	"gravity": false,
 	"playerPosition": {
-                    "x": -56,
-                    "y": 40,
-                    "z": 380
+                    "x": 0,
+                    "y": 70,
+                    "z": 160
                 },
 	"playerRotation": 0,
 	"name": "Cube Test",

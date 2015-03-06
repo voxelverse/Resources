@@ -29,15 +29,6 @@
 		],
         "children": [
             {
-                "fileName": "DragonWingRight",
-                "name": "WingRight",
-                "location": {
-                    "x": -5,
-                    "y": -21,
-                    "z": -21
-                }
-            },		
-            {
                 "fileName": "DragonWingLeft",
                 "name": "WingLeft",
                 "location": {
@@ -55,36 +46,6 @@
                     "y": 0,
                     "z": 180
                 }
-            },
-            {
-                "fileName": "DragonBreath",
-                "name": "Breath",
-                "location": {
-                    "z": -42,
-                    "y": 2,
-                    "x": 0
-                }
-            },
-            {
-                "fileName": "Saddle6",
-                "name": "Saddle",
-                "location": {
-                    "z": -16,
-                    "y": -22,
-                    "x": -16
-                }
-            },
-            {
-                "fileName": "DragonNeck",
-                "name": "DragonNeck",
-                "location": { "x": 0, "y": 0, "z": -16 }
-            },
-            {
-                "fileName": "DragonTailFirst",
-                "name": "DragonTailFirst",
-                "location": { "x": 0, "y": 0, "z": 30 },
-                "scale": { "x": 1, "y": 1, "z": 1 },
-                "center": { "x": 16, "y": 16, "z": 0 }
             }	
 		]			
     }

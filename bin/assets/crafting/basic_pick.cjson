@@ -1,0 +1,14 @@
+{
+    "recipe": {
+		"name": "Basic Pick",
+		"className" : "Pick",
+		"desc": "Used to remove stone, metal, gems",
+		"category": "tool",
+		"preview": "basic_pick.png",
+		"materials": [ { "material": { "category": "plant", "quantity": 2, "speed":60, "damage":30, "durability":50,"weight":20 } },
+					   { "material": { "category": "metal", "quantity": 2 , "speed":40, "damage":70, "durability":50,"weight":80} }
+		],
+		"bonuses": 	 [ { "bonus": { "subCat": "damage", "optional":true } }
+		]
+	}
+}

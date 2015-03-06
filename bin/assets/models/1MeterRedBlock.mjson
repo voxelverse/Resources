@@ -5,7 +5,7 @@
         "biomes": {
             "layers": [
                 {
-                    "data": "1MeterRedBlock",
+                    "data": "5MeterCubeOfWater",
                     "functionName": "LoadModelFromIVM"
                 }
             ]

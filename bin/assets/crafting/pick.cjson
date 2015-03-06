@@ -1,17 +1,19 @@
 {
     "recipe": {
 		"name": "Pick",
+		"className" : "Pick",
 		"desc": "Used to remove stone, metal, gems",
 		"category": "tool",
 		"preview": "pick.png",
-		"materials": [ { "material": { "category": "plant", "quantity": 2 } },
-					   { "material": { "category": "metal", "quantity": 2 } },
-					   { "material": { "category": "leather", "quantity": 1, "optional":true } }
+		"materials": [ { "material": { "category": "plant",   "quantity": 2, "speed":25, "damage":50, "durability":50,"weight":80 } },
+					   { "material": { "category": "metal",   "quantity": 2, "speed":50, "damage":30, "durability":50,"weight":20 } },
+					   { "material": { "category": "leather", "quantity": 1, "speed":25, "damage":20, "durability":0,"weight":0, "optional":true } }
 		],
-		"bonuses": 	 [ { "bonus": { "category": "damage", "optional":true } },
-					   { "bonus": { "category": "speed", "optional":true } },
-					   { "bonus": { "category": "durability", "optional":true } },
-					   { "bonus": { "category": "luck", "optional":true } }
+		"bonuses": 	 [ { "bonus": { "subCat": "damage", "optional":true } },
+					   { "bonus": { "subCat": "speed", "optional":true } },
+					   { "bonus": { "subCat": "durability", "optional":true } },
+					   { "bonus": { "subCat": "luck", "optional":true } }
 		]
 	}
+	
 }

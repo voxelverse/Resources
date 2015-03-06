@@ -1,0 +1,51 @@
+{
+    "model": {
+        "editable": "true",
+        "template": "false",
+        "biomes": {
+            "layers": [
+                {
+                    "functionName": "TestSolid",
+                    "type": "AIR",
+                    "range": "0",
+                    "offset": "0"
+                }
+            ]
+        },
+		"scale": { 
+			"x": 8,
+			"y": 8,
+			"z": 1
+		},
+		"children": [
+            {
+                "fileName": "E9C1BE1A-A2D5-6F0A-DBF7-E35541D9C8C2",
+				"name" : "PickHead",
+                "location": {
+                    "x": 8,
+                    "y": 16,
+                    "z": 0
+                },
+				"scale": { 
+                    "x": 8,
+                    "y": 8,
+                    "z": 1
+                }
+            },
+            {
+                "fileName": "99219D0B-3032-2D76-0E26-20CAC269FDE0",
+				"name" : "PickHandle",
+                "location": {
+                    "x": 8,
+                    "y": 0,
+                    "z": 8
+                },
+				"scale": { 
+                    "x": 8,
+                    "y": 1,
+                    "z": 7
+                }
+            }
+		]
+    }
+}

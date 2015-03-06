@@ -1,0 +1,17 @@
+{
+    "recipe": {
+		"name": "Shovel",
+		"className" : "Pick",
+		"desc": "Used to remove dirt, gravel, and other soft materials",
+		"category": "tool",
+		"preview": "shovel.png",
+		"materials": [ { "material": { "category": "plant", "quantity": 2, "speed":50, "damage":30, "durability":45,"weight":20 } },
+					   { "material": { "category": "metal", "quantity": 1, "speed":30, "damage":60, "durability":50,"weight":80 } },
+					   { "material": { "category": "leather", "quantity": 1, "speed":20, "damage":10, "durability":5,"weight":0, "optional":false } }
+		],
+		"bonuses": 	 [ { "bonus": { "subCat": "damage", "optional":true } },
+					   { "bonus": { "subCat": "speed", "optional":true } },
+					   { "bonus": { "subCat": "durability", "optional":true } }
+		]
+	}
+}

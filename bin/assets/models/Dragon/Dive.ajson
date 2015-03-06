@@ -1,7 +1,7 @@
 {
    "animation": [
 		{
-			"attachmentName": "WingRight",
+			"attachmentName": "DragonWingRight",
 			"location": {
 				"x": -9,
                 "y": -20,
@@ -34,7 +34,7 @@
 			]
 		},
 		{
-			"attachmentName": "WingLeft",
+			"attachmentName": "DragonWingLeft",
 			"location": {
 				"x": -22,
 				"y": -15,
@@ -72,7 +72,7 @@
 			]
 		},
 		{
-			"attachmentName": "WingTipLeft",
+			"attachmentName": "DragonWingTipLeft",
 			"transforms": [
 				{
 					"delta": {
@@ -86,7 +86,7 @@
 			]
 		},
 		{
-			"attachmentName": "WingTipRight",
+			"attachmentName": "DragonWingTipRight",
 			"transforms": [
 				{
 					"delta": {

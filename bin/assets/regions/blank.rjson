@@ -1,11 +1,11 @@
 {
     "region": [
-		{
+        {
              "model": {
-                "fileName": "Blank",
-				"baseLightLevel": "128"
+                "fileName": "GenerateCube",
+				"grainSize": 6,
+				"type" : "Grass"
             }
-
 		}
     ]
 	,

@@ -1,0 +1,88 @@
+{
+    "region": [
+		{
+             "model": {
+                "fileName": "Dragon",
+                "name": "Bill",
+                "location": {
+                    "x": 32,
+                    "y": 100,
+                    "z": 90
+                },
+				"collision": false,
+				"state" :"DragonAniFly",
+				"baseLightLevel": 150,
+				"script": "AutoControlObjectScript"
+            }
+		},
+		{
+            "model": {
+                "fileName": "BjornCastle",
+                "location": {
+                    "x": -500,
+                    "y": -2000,
+                    "z": -1500
+                }
+            }
+		},
+		{
+             "model": {
+                "fileName": "AlexaIsland",
+                "location": {
+                    "x": -2000,
+                    "y": -2000,
+                    "z": -2000
+                }
+            }
+
+		},
+		{
+             "model": {
+                "fileName": "AlexaIsland1",
+                "location": {
+                    "x": -4000,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+
+		},
+		{
+             "model": {
+                "fileName": "AlexaIsland2",
+                "location": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -4000
+                }
+            }
+
+		},
+		{
+             "model": {
+                "fileName": "AlexaIsland3",
+                "location": {
+                    "x": -4000,
+                    "y": 0,
+                    "z": -4000
+                }
+            }
+
+		}		
+
+    ],
+	"skyColor": {
+                    "r": 166,
+                    "g": 166,
+                    "b": 166
+                },
+	"gravity": false,
+	"playerPosition": {
+                    "x": 47,
+                    "y": 141,
+                    "z": 103
+                },
+	"playerRotation": 0,
+	"name": "Collision Test",
+	"desc": "Used to make sure avatar collide works as expected"
+}

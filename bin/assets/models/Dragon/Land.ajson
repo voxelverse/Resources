@@ -1,7 +1,7 @@
 {
 	"animation": [
 		{
-			"attachmentName": "Raptor",
+			"attachmentName": "DragonChest",
 			"rotation": {
 				"x": 0,
 				"y": 0,
@@ -9,7 +9,7 @@
 			}
 		},
 		{
-			"attachmentName": "WingRight",
+			"attachmentName": "DragonWingRight",
 			"location": {
 				"x": -5,
                 "y": -21,
@@ -68,7 +68,7 @@
 			
 		},
 		{
-			"attachmentName": "WingTipLeft",
+			"attachmentName": "DragonWingTipLeft",
 			"rotation": {
 				"x": 0,
 				"y": 0,
@@ -87,7 +87,7 @@
 			]
 		},
 		{
-			"attachmentName": "WingTipRight",
+			"attachmentName": "DragonWingTipRight",
 			"rotation": {
 				"x": 0,
 				"y": 0,
@@ -106,7 +106,7 @@
 			]
 		},
 		{
-			"attachmentName" : "LeftFoot",
+			"attachmentName" : "DragonLeftFoot",
 			"location": {
 				"x": -4,
 				"y": -21,
@@ -124,7 +124,7 @@
 			}
 		},
 		{
-			"attachmentName" : "RightFoot",
+			"attachmentName" : "DragonRightFoot",
 			"rotation": {
 				"x": 0,
 				"y": 0,

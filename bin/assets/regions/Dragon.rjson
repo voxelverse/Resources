@@ -14,24 +14,14 @@
 				"baseLightLevel": 150,
 				"script": "AutoControlObjectScript"
             }
-		},
-		{
-            "model": {
-                "fileName": "BjornCastle",
-                "location": {
-                    "x": -500,
-                    "y": -2000,
-                    "z": -1500
-                }
-            }
-		}		
+		}
     ],
 	"skyColor": {
-                    "r": 66,
-                    "g": 66,
-                    "b": 66
+                    "r": 166,
+                    "g": 166,
+                    "b": 166
                 },
-	"gravity": true,
+	"gravity": false,
 	"playerPosition": {
                     "x": 47,
                     "y": 141,

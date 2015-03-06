@@ -1,7 +1,7 @@
 {
     "animation": [
 		{
-			"attachmentName": "WingRight",
+			"attachmentName": "DragonWingRight",
 			"location": {
 				"x": -9,
                 "y": -20,
@@ -25,7 +25,7 @@
 			]
 		},
 		{
-			"attachmentName": "WingLeft",
+			"attachmentName": "DragonWingLeft",
 			"location": {
 				"x": -22,
 				"y": -15,
@@ -49,7 +49,7 @@
 			]
 		},
 		{
-			"attachmentName": "WingTipLeft",
+			"attachmentName": "DragonWingTipLeft",
 			"rotation": {
 				"x": 0,
 				"y": 0,
@@ -68,7 +68,7 @@
 			]
 		},
 		{
-			"attachmentName": "WingTipRight",
+			"attachmentName": "DragonWingTipRight",
 			"rotation": {
 				"x": 0,
 				"y": 0,

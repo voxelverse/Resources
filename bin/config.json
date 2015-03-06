@@ -1,6 +1,7 @@
 {
 	"config" : {
-		"region": { "startingRegion":"AlexaIsland"  },
+		"region": { "startingRegion":"alltypes"  },
+		"serverRegion": { "startingRegion":"DF41A96E-8899-964E-09E6-A9616B86D4FF"  },
 		"typeName" : "types.json",
 		"showHelp" : false,
 		"showButtons" : true,
