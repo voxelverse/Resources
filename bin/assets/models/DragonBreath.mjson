@@ -1,96 +1,26 @@
 {
     "model": {
-        "template": true,
-        "editable": false,
         "modelClass": "Gun",
-		"name": "Breath",
-		"desc": "Stinky",
-		"grainSize": 5,
-		"gun": 
-		{ 
-			"reloadSpeed": 10,
-			"ammos" : [
-			{
-				"name" : "dragonFire",
-				"accuracy" : 0.1,
-				"velocity" : 200,
-				"type" : 2,
-				"count" : 10,
-				"oxelType" : "DragonFire",
-				"life" : 5,
-				"grain" : 2,
-				"model" : "CannonBall",
-				"launchSoundFile" : "Dragonfire.mp3",
-				"impactSoundFile" : "",
-				"contactScript" : "DragonFireScript"
-			},
-			{
-				"name" : "dragonIce",
-				"accuracy" : 0.05,
-				"velocity" : 200,
-				"type" : 2,
-				"count" : 10,
-				"oxelType" : "DragonIce",
-				"life" : 5,
-				"grain" : 2,
-				"model" : "CannonBall",
-				"launchSoundFile" : "Dragonfire.mp3",
-				"impactSound" : "CannonBallExploding.mp3",
-				"contactScript" : "IceScript"
-			},
-			{
-				"name" : "dragonAcid",
-				"accuracy" : 0.1,
-				"velocity" : 400,
-				"type" : 1,
-				"count" : 0,
-				"oxelType" : "DragonAcid",
-				"life" : 5,
-				"grain" : 2,
-				"model" : "CannonBall",
-				"launchSoundFile" : "Dragonfire.mp3",
-				"impactSound" : "CannonBallExploding.mp3",
-				"contactScript" : "AcidScript"
-			},
-			{
-				"name" : "dragonWater",
-				"accuracy" : 0.05,
-				"velocity" : 200,
-				"type" : 1,
-				"count" : 10,
-				"oxelType" : "DragonWater",
-				"life" : 5,
-				"grain" : 3,
-				"model" : "CannonBall",
-				"launchSoundFile" : "Dragonfire.mp3",
-				"impactSound" : "CannonBallExploding.mp3",
-				"contactScript" : "ExplosionScript"
-			},
-			{
-				"name" : "dragonEarth",
-				"accuracy" : 0.05,
-				"velocity" : 200,
-				"type" : 1,
-				"count" : 10,
-				"oxelType" : "DragonEarth",
-				"life" : 5,
-				"grain" : 2,
-				"model" : "CannonBall",
-				"launchSoundFile" : "Dragonfire.mp3",
-				"impactSound" : "CannonBallExploding.mp3",
-				"contactScript" : "ExplosionScript"
-			}
-			]
-		},
         "biomes": {
             "layers": [
                 {
-                    "functionName": "TestSolid",
-                    "type": "AIR",
+                    "functionName": "GenerateCube",
+                    "type": "DIRT",
                     "range": "0",
                     "offset": "0"
                 }
             ]
         }
+	},
+	"gun": 
+	{ 
+		"reloadSpeed": 10,
+		"ammos" : [
+		{ "name" : "dragonFire" },
+		{ "name" : "dragonIce" },
+		{ "name" : "dragonAcid" },
+		{ "name" : "dragonWater" },
+		{ "name" : "dragonEarth" }
+		]
 	}
 }

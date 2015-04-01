@@ -5,48 +5,44 @@
         "biomes": {
             "layers": [
                 {
-                    "data": "DragonChest",
+                    "data": "Dragon",
                     "functionName": "LoadModelFromIVM"
                 }
             ]
         },
-		"beast": 
-		{ 
-		  "moveSpeed": 40,
-		  "maxSpeed": 15,
-		  "maxTurnRate": 20,
-		  "maxClimbAngle": 40,
-		  "climbRate": 70,
-		  "clipFactor": 99,
-		  "seatLocation": { "x":8, "y":12, "z":23 }
-		},
-        "animations": [
-            { "name": "Fly", "type": "state", "guid":"Fly.ajson" },
-			{ "name": "Glide", "type": "state", "guid":"Glide.ajson" },
-			{ "name": "Land", "type": "state", "guid":"Land.ajson" },
-			{ "name": "Walk", "type": "state", "guid":"Walk.ajson" },
-			{ "name": "Dive", "type": "state", "guid":"Dive.ajson" }
-		],
         "children": [
             {
-                "fileName": "DragonWingLeft",
-                "name": "WingLeft",
+                "fileName": "Saddle6",
+                "name": "Saddle",
                 "location": {
-                    "x": -27,
-                    "y": -15,
-                    "z": -19
-                },
-                "center": {
-                    "x": 32,
-                    "y": 32,
-                    "z": 32
-                },
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 180
+                    "z": -16,
+                    "y": -22,
+                    "x": -16
+                }
+            },
+			{
+                "fileName": "DragonBreath",
+                "name": "Breath",
+                "location": {
+                    "z": -42,
+                    "y": 2,
+                    "x": 0
                 }
             }	
 		]			
-    }
+    },
+	"controllableVoxelModel" : {
+		"clipFactor": 99,
+		"maxSpeed": 15
+	},
+	"beast": { 
+		"moveSpeed": 40,
+		"maxTurnRate": 20,
+		"maxClimbAngle": 40,
+		"climbRate": 70,
+		"seatLocation": { "x":8, "y":12, "z":23 }
+	},
+	"dragon" : {
+	}
+	
 }

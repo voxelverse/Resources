@@ -1,8 +1,8 @@
 {
 	"config" : {
-		"region": { "startingRegion":"alltypes"  },
+		"region": { "startingRegion": "" },
 		"serverRegion": { "startingRegion":"DF41A96E-8899-964E-09E6-A9616B86D4FF"  },
-		"typeName" : "types.json",
+		"typeName" : "types",
 		"showHelp" : false,
 		"showButtons" : true,
 		"showEditMenu" : true

@@ -1,4 +1,15 @@
 {
+	"tileTypes": {
+        "comment": "These tile types are here for reference only",
+        "TILE_FIXED": 0,
+        "TILE_RANDOM": 1,
+        "TILE_RANDOM_CENTERED": 2,
+        "TILE_RANDOM_8_HORZ": 3,
+        "TILE_RANDOM_8_VERT": 4,
+        "TILE_RANDOM_16_BOTH": 5,
+        "TILE_RANDOM_NO_ROTATE": 6,
+        "TILE_NONE": 7
+    },
     "types": [
         {
             "name": "Air",
@@ -746,8 +757,8 @@
             "id": 131,
             "category": "DRAGON",
             "uv": {
-                "maxpix": 64,
-                "minpix": 64,
+                "maxpix": 128,
+                "minpix": 16,
                 "top": 0,
                 "side": 0,
                 "bottom": 0,
@@ -1771,11 +1782,11 @@
                 "side": 0,
                 "bottom": 0,
                 "ut": 0.078125,
-                "vt": 0.265625,
+                "vt": 0.28125,
                 "us": 0.078125,
-                "vs": 0.265625,
+                "vs": 0.28125,
                 "ub": 0.078125,
-                "vb": 0.265625
+                "vb": 0.28125
             }
         },
         {
@@ -1886,11 +1897,11 @@
                 "top": 0,
                 "side": 0,
                 "bottom": 0,
-                "ut": 0,
+                "ut": 0.0078125,
                 "vt": 0.2734375,
-                "us": 0,
+                "us": 0.0078125,
                 "vs": 0.2734375,
-                "ub": 0,
+                "ub": 0.0078125,
                 "vb": 0.2734375
             }
         }
