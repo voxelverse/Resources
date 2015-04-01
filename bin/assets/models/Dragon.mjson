@@ -10,7 +10,51 @@
                 }
             ]
         },
+        "animations": [
+            { "name": "Fly", "type": "state", "guid":"Fly.ajson" },
+			{ "name": "Glide", "type": "state", "guid":"Glide.ajson" },
+			{ "name": "Land", "type": "state", "guid":"Land.ajson" },
+			{ "name": "Walk", "type": "state", "guid":"Walk.ajson" },
+			{ "name": "Dive", "type": "state", "guid":"Dive.ajson" }
+		],
         "children": [
+            {
+                "fileName": "DragonWingRight",
+                "name": "WingRight",
+                "location": {
+                    "x": -5,
+                    "y": -21,
+                    "z": -21
+                }
+            },		
+            {
+                "fileName": "DragonWingLeft",
+                "name": "WingLeft",
+                "location": {
+                    "x": -27,
+                    "y": -15,
+                    "z": -19
+                },
+                "center": {
+                    "x": 32,
+                    "y": 32,
+                    "z": 32
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 180
+                }
+            },
+            {
+                "fileName": "DragonBreath",
+                "name": "Breath",
+                "location": {
+                    "z": -42,
+                    "y": 2,
+                    "x": 0
+                }
+            },
             {
                 "fileName": "Saddle6",
                 "name": "Saddle",
@@ -20,14 +64,17 @@
                     "x": -16
                 }
             },
-			{
-                "fileName": "DragonBreath",
-                "name": "Breath",
-                "location": {
-                    "z": -42,
-                    "y": 2,
-                    "x": 0
-                }
+            {
+                "fileName": "DragonNeck",
+                "name": "DragonNeck",
+                "location": { "x": 0, "y": 0, "z": -16 }
+            },
+            {
+                "fileName": "DragonTailFirst",
+                "name": "DragonTailFirst",
+                "location": { "x": 0, "y": 0, "z": 30 },
+                "scale": { "x": 1, "y": 1, "z": 1 },
+                "center": { "x": 16, "y": 16, "z": 0 }
             }	
 		]			
     },
