@@ -1,7 +1,5 @@
 {
     "model": {
-        "editable": "true",
-        "template": "false",
         "biomes": {
             "layers": [
                 {

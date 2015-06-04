@@ -1,6 +1,7 @@
 {
     "model": {
         "modelClass": "Gun",
+		"grainSize" :3,
         "biomes": {
             "layers": [
                 {
@@ -14,7 +15,7 @@
 	},
 	"gun": 
 	{ 
-		"reloadSpeed": 10,
+		"reloadSpeed": 1000,
 		"ammos" : [
 		{ "name" : "dragonFire" },
 		{ "name" : "dragonIce" },

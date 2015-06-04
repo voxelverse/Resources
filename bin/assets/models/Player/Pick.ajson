@@ -1,5 +1,5 @@
 {
-    "attachment": [
+    "attachments": [
 		{
 			"fileName": "PickTest",
 			"attachsTo": "RightArm",
@@ -15,7 +15,7 @@
 			}
 		}
 	],
-	"animation": [
+	"animations": [
 		{
 			"attachmentName": "LeftArm",
 			"rotation": {

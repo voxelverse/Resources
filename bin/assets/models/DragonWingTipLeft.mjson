@@ -4,7 +4,7 @@
         "biomes": {
             "layers": [
                 {
-                    "data": "DragonWingTip",
+                    "data": "DragonWingTipLeft",
                     "functionName": "LoadModelFromIVM"
                 }
             ]
