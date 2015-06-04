@@ -12,6 +12,22 @@
     },
     "types": [
         {
+            "name": "Model",
+            "image": "invalid.png",
+            "id": 99,
+            "category": "AIR",
+            "placeable": "false",
+            "solid": "false",
+            "attn": "50",
+            "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 1
+            },
+            "comment": "Model is not alpha, since if it is, it makes engine allocate a alpha vertex buffer, this is just a placeholder for a model"
+        },
+        {
             "name": "Air",
             "image": "invalid.png",
             "id": 100,
@@ -304,7 +320,7 @@
                 "r": 1,
                 "g": 1,
                 "b": 1,
-                "a": 0.1
+                "a": 0.9
             },
             "uv": {
                 "maxpix": 64,
