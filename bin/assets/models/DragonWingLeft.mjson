@@ -5,7 +5,7 @@
         "biomes": {
             "layers": [
                 {
-                    "data": "DragonWing",
+                    "data": "DragonWingLeft",
                     "functionName": "LoadModelFromIVM"
                 }
             ]
