@@ -1,5 +1,6 @@
 {
-   "animation": [
+    "type": "state",
+   "animations": [
 		{
 			"attachmentName": "DragonWingRight",
 			"location": {

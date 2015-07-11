@@ -1,5 +1,6 @@
 {
-	"animation": [
+    "type": "state",
+	"animations": [
 		{
 			"attachmentName": "DragonChest",
 			"rotation": {
@@ -38,7 +39,7 @@
 			]
 		},
 		{
-			"attachmentName": "WingLeft",
+			"attachmentName": "DragonWingLeft",
 			"location": {
 				"x": -27,
 				"y": -15,

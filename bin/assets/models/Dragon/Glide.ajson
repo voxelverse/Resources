@@ -1,5 +1,6 @@
 {
-    "animation": [
+    "type": "state",
+	"animations": [
 		{
 			"attachmentName": "DragonWingRight",
 			"location": {
@@ -19,7 +20,7 @@
 						"y": 0,
 						"z": 0
 					},
-					"time": 1,
+					"time": 0.5,
 					"type": "rotate_to"
 				}
 			]
@@ -43,7 +44,7 @@
 						"y": 0,
 						"z": 180
 					},
-					"time": 1,
+					"time": 0.5,
 					"type": "rotate_to"
 				}
 			]
