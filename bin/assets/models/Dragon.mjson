@@ -11,11 +11,11 @@
             ]
         },
         "animations": [
-            { "name": "Fly", "type": "state", "guid":"Fly.ajson" },
-			{ "name": "Glide", "type": "state", "guid":"Glide.ajson" },
-			{ "name": "Land", "type": "state", "guid":"Land.ajson" },
-			{ "name": "Walk", "type": "state", "guid":"Walk.ajson" },
-			{ "name": "Dive", "type": "state", "guid":"Dive.ajson" }
+            { "name": "Fly", "guid":"Fly.ajson" },
+			{ "name": "Glide", "guid":"Glide.ajson" },
+			{ "name": "Land", "guid":"Land.ajson" },
+			{ "name": "Walk", "guid":"Walk.ajson" },
+			{ "name": "Dive", "guid":"Dive.ajson" }
 		],
         "children": [
             {
@@ -25,6 +25,16 @@
                     "x": -5,
                     "y": -21,
                     "z": -21
+                },
+                "center": {
+                    "x": 32,
+                    "y": 32,
+                    "z": 32
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 }
             },		
             {
