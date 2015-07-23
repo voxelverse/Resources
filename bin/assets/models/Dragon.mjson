@@ -1,11 +1,8 @@
-{
-    "model": {
-	    "editable": true,
-        "modelClass": "Dragon",
-        "biomes": {
-            "layers": [
-                {
-                    "data": "Dragon",
+{ "model":
+	{ 	"modelClass": "Dragon",
+        "biomes": 
+		{	"layers": [
+                {	"data": "Dragon",
                     "functionName": "LoadModelFromIVM"
                 }
             ]

@@ -1,7 +1,6 @@
 {
  "model": {
-		"editable": true,
-        "biomes": {
+       "biomes": {
             "layers": [
                 {
                     "data": "DragonWingTipLeft",

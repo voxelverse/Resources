@@ -1,7 +1,5 @@
 {
  "model": {
-		"editable": true,
-		"name": "WingLeft",
         "biomes": {
             "layers": [
                 {

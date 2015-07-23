@@ -1,9 +1,6 @@
 {
     "model": {
         "modelClass": "Trigger",
-        "editable": "true",
-        "template": "true",
-        "grainSize": 7,
         "scripts": [
             {
                 "name": "ControlBeastScript"

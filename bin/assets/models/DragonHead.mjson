@@ -1,12 +1,10 @@
 {
     "model": {
-	    "editable": true,
         "biomes": {
             "layers": [
-                {
-                    "data": "DragonHead",
-                    "functionName": "LoadModelFromIVM"
-                }
+				{	"data": "DragonHead",
+					"functionName": "LoadModelFromIVM"
+				}
             ]
         }			
     }

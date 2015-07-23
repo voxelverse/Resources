@@ -1,7 +1,6 @@
 {
     "model": {
         "modelClass": "Gun",
-		"grainSize" :3,
         "biomes": {
             "layers": [
                 {
