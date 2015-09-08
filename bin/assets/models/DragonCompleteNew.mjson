@@ -8,8 +8,7 @@
             ]
         },
         "animations": [
-            { "name": "Starting", "guid":"starting.ajson" },
-			{ "name": "Fly", "guid":"Fly.ajson" },
+            { "name": "Fly", "guid":"Fly0.ajson" },
 			{ "name": "Glide", "guid":"Glide.ajson" },
 			{ "name": "Land", "guid":"Land.ajson" },
 			{ "name": "Walk", "guid":"Walk.ajson" },
@@ -21,12 +20,12 @@
                 "name": "WingRight",
                 "location": {
                     "x": -5,
-                    "y": -20,
-                    "z": -19
+                    "y": -21,
+                    "z": -21
                 },
                 "center": {
                     "x": 32,
-                    "y": 36,
+                    "y": 32,
                     "z": 32
                 },
                 "rotation": {
@@ -40,7 +39,7 @@
                 "name": "WingLeft",
                 "location": {
                     "x": -27,
-                    "y": -14,
+                    "y": -15,
                     "z": -19
                 },
                 "center": {
@@ -58,8 +57,8 @@
                 "fileName": "DragonBreath",
                 "name": "Breath",
                 "location": {
-                    "z": -45,
-                    "y": 14,
+                    "z": -42,
+                    "y": 24,
                     "x": 16
                 }
             },
@@ -84,7 +83,7 @@
                 "scale": { "x": 1, "y": 1, "z": 1 },
                 "center": { "x": 16, "y": 16, "z": 0 }
             }	
-		]		
+		]			
     },
 	"controllableVoxelModel" : {
 		"clipFactor": 99,

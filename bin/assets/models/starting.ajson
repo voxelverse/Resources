@@ -1,0 +1,44 @@
+{
+    "type": "state",
+	"name" : "starting",
+	"animationClass" : "MODEL_DRAGON_12",
+	"description" : "No transforms, starting position",
+	"animations": [
+		{ 
+			"attachmentName": "DragonChest"
+		},
+		{
+			"attachmentName": "DragonWingRight"
+		},
+		{
+			"attachmentName": "DragonWingLeft"
+		},
+		{
+			"attachmentName": "DragonWingTipLeft"
+		},
+		{
+			"attachmentName": "DragonWingTipRight"
+		},
+		{
+			"attachmentName" : "DragonLeftFoot"
+		},
+		{
+			"attachmentName" : "DragonRightFoot"
+		},
+		{
+			"attachmentName" : "DragonTailFirst"
+		},
+		{
+			"attachmentName" : "DragonTailSecond"
+		},
+		{
+			"attachmentName" : "DragonTailThird"
+		},
+		{
+			"attachmentName" : "DragonNeck"
+		},
+		{
+			"attachmentName" : "DragonHead"
+		}
+	]			
+}

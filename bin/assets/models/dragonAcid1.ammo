@@ -1,0 +1,18 @@
+{
+	"ammo" : 
+	{
+        "key": "dragonAcid1",
+        "name": "Dragon Acid 1",
+		"accuracy" : 0.1,
+		"velocity" : 400,
+		"type" : 1,
+		"count" : 0,
+		"oxelType" : "DragonAcid",
+		"life" : 5,
+		"grain" : 2,
+		"model" : "CannonBall",
+		"launchSoundFile" : "Dragonfire.mp3",
+		"impactSound" : "CannonBallExploding.mp3",
+		"contactScript" : "AcidScript"
+	}
+}

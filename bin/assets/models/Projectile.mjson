@@ -1,0 +1,11 @@
+{ "model": 
+	{ 	"modelClass": "Projectile",
+        "biomes": 
+		{	"layers": [
+				{	"data": "Projectile",
+				   "functionName": "LoadModelFromIVM"
+				}
+            ]
+        }
+    }
+}

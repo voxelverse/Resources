@@ -1,12 +1,10 @@
-{
-    "model": {
-        "biomes": {
-            "layers": [
-                {
-                    "data": "AllTypes",
-                    "functionName": "LoadModelFromIVM"
-                }
-            ]
-        }
-    }
+{ "model": 
+	{ "biomes": 
+		{ "layers": [
+				{ "data": "AllTypes",
+				  "functionName": "LoadModelFromIVM"
+				}
+			]
+		}
+	}
 }

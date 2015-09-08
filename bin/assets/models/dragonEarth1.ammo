@@ -1,0 +1,18 @@
+{
+	"ammo" : 
+	{
+        "key": "dragonEarth1",
+        "name": "Dragon Earth 1",
+		"accuracy" : 0.05,
+		"velocity" : 200,
+		"type" : 1,
+		"count" : 10,
+		"oxelType" : "DragonEarth",
+		"life" : 5,
+		"grain" : 2,
+		"model" : "CannonBall",
+		"launchSoundFile" : "Dragonfire.mp3",
+		"impactSound" : "CannonBallExploding.mp3",
+		"contactScript" : "ExplosionScript"
+	}
+}

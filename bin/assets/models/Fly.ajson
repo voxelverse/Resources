@@ -1,0 +1,114 @@
+{
+    "type": "state",
+	"name" : "Fly",
+	"animationClass" : "MODEL_DRAGON_12",
+	"description" : "First fly Animation for the dragon",
+    "sound": 
+	{
+		"name" : "Flapping.mp3",
+		"soundRangeMax" : 2000,
+		"soundRangeMin" : 10
+	},
+	"animations": [
+		{ 
+			"attachmentName": "DragonChest"
+		},
+		{
+			"attachmentName": "DragonWingRight",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 10
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": 0,
+						"y": 0,
+						"z": -40
+					},
+					"time": 0.5,
+					"type": "rotation_repeating"
+				}
+			]
+		},
+		{
+			"attachmentName": "DragonWingLeft",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 170
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": 0,
+						"y": 0,
+						"z": 40
+					},
+					"time": 0.5,
+					"type": "rotation_repeating"
+				}
+			]
+		},
+		{
+			"attachmentName": "DragonWingTipLeft",
+			"transforms": [
+				{
+					"delta": {
+						"x": 0,
+						"y": 0,
+						"z": 30
+					},
+					"time": 0.5,
+					"type": "rotation_repeating"
+				}
+			]
+		},
+		{
+			"attachmentName": "DragonWingTipRight",
+			"transforms": [
+				{
+					"delta": {
+						"x": 0,
+						"y": 0,
+						"z": -30
+					},
+					"time": 0.5,
+					"type": "rotation_repeating"
+				}
+			]
+		},
+		{
+			"attachmentName": "DragonLeftFoot",
+			"rotation": {
+				"x": 90,
+				"y": 0,
+				"z": 0
+			}
+		},
+		{
+			"attachmentName": "DragonRightFoot",
+			"rotation": {
+				"x": 90,
+				"y": 0,
+				"z": 0
+			}
+		},
+		{
+			"attachmentName" : "DragonTailFirst"
+		},
+		{
+			"attachmentName" : "DragonTailSecond"
+		},
+		{
+			"attachmentName" : "DragonTailThird"
+		},
+		{
+			"attachmentName" : "DragonNeck"
+		},
+		{
+			"attachmentName" : "DragonHead"
+		}		
+	]			
+}

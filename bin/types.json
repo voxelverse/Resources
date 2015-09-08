@@ -862,11 +862,13 @@
             }
         },
         {
-            "name": "Dragon Fire",
+            "name": "DragonFire",
             "image": "dragonFire.png",
             "id": 135,
             "category": "DRAGON",
-            "b": "true",
+            "light": {
+                "fullBright": "true"
+            },
             "placeable": "false",
             "animated": "true",
             "color": {
@@ -890,7 +892,7 @@
             }
         },
         {
-            "name": "Dragon Ice",
+            "name": "DragonIce",
             "image": "dragonIce.png",
             "id": 136,
             "category": "DRAGON",
@@ -899,18 +901,21 @@
             },
             "placeable": "false",
             "color": {
-                "r": 0,
-                "g": 0,
+                "r": 1,
+                "g": 1,
                 "b": 1,
                 "a": 1
             }
         },
         {
-            "name": "Dragon Acid",
+            "name": "DragonAcid",
             "image": "dragonAcid.png",
             "id": 137,
             "category": "DRAGON",
             "placeable": "false",
+            "light": {
+                "fullBright": "true"
+            },
             "color": {
                 "r": 0,
                 "g": 1,
@@ -919,7 +924,7 @@
             }
         },
         {
-            "name": "Dragon Water",
+            "name": "DragonWater",
             "image": "water.png",
             "id": 138,
             "category": "UTIL",
@@ -927,15 +932,29 @@
                 "fullBright": "true"
             },
             "placeable": "false",
+			"animated": "true",
             "color": {
-                "r": 0,
+                "r": 1,
                 "g": 1,
                 "b": 1,
-                "a": 1
+                "a": 0.9
+            },
+            "uv": {
+                "maxpix": 64,
+                "minpix": 16,
+                "top": 0,
+                "side": 0,
+                "bottom": 0,
+                "ut": 0.90625,
+                "vt": 0.888671875,
+                "us": 0.90625,
+                "vs": 0.888671875,
+                "ub": 0.90625,
+                "vb": 0.888671875
             }
         },
         {
-            "name": "Dragon Earth",
+            "name": "DragonEarth",
             "image": "stone.png",
             "id": 139,
             "category": "UTIL",
@@ -943,27 +962,16 @@
                 "fullBright": "true"
             },
             "placeable": "false",
-            "color": {
-                "r": 1,
-                "g": 1,
-                "b": 0.5,
-                "a": 1
-            }
-        },
-        {
-            "name": "Dragon Acid",
-            "image": "stone.png",
-            "id": 140,
-            "category": "UTIL",
-            "light": {
-                "fullBright": "true"
-            },
-            "placeable": "false",
-            "color": {
-                "r": 0.5,
-                "g": 1,
-                "b": 0.5,
-                "a": 1
+            "uv": {
+                "top": 1,
+                "side": 1,
+                "bottom": 1,
+                "ut": 0.5,
+                "vt": 0,
+                "us": 0.5,
+                "vs": 0,
+                "ub": 0.5,
+                "vb": 0
             }
         },
         {

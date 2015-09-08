@@ -8,13 +8,11 @@
             ]
         },
         "children": [
-            { "instanceInfo":
-				{	"fileName": "DragonHead",
-					"name": "DragonHead",
-					"center": { "x": 16, "y": 16, "z": 32 },
-					"location": { "x": 0, "y": 0, "z": -30 }
-				}
-            }
+			{	"fileName": "DragonHead",
+				"name": "DragonHead",
+				"center": { "x": 16, "y": 16, "z": 32 },
+				"location": { "x": 0, "y": 0, "z": -30 }
+			}
 		]
 		
 		
