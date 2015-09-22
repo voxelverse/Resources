@@ -11,8 +11,8 @@
 		"life" : 5,
 		"grain" : 2,
 		"model" : "CannonBall",
-		"launchSoundFile" : "Dragonfire.mp3",
-		"impactSound" : "CannonBallExploding.mp3",
+		"launchSound" : "Dragonfire",
+		"impactSound" : "CannonBallExploding",
 		"contactScript" : "ExplosionScript"
 	}
 }

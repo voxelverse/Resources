@@ -7,6 +7,69 @@
                     "functionName": "LoadModelFromIVM"
                 }
             ]
-        }			
+        },
+        "children": [
+            {
+                "fileName": "DragonWingRight",
+                "name": "WingRight",
+                "location": {
+                    "x": -5,
+                    "y": -20,
+                    "z": -19
+                },
+                "center": {
+                    "x": 32,
+                    "y": 36,
+                    "z": 32
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },		
+            {
+                "fileName": "DragonWingLeft",
+                "name": "WingLeft",
+                "location": {
+                    "x": -27,
+                    "y": -14,
+                    "z": -19
+                },
+                "center": {
+                    "x": 32,
+                    "y": 32,
+                    "z": 32
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 180
+                }
+            },
+            {
+                "fileName": "Saddle6",
+                "name": "Saddle",
+                "location": {
+                    "z": -16,
+                    "y": -22,
+                    "x": -16
+                }
+            },
+            {
+                "fileName": "DragonNeck",
+                "name": "DragonNeck",
+                "location": { "x": 0, "y": 0, "z": -16 },
+                "center": { "x": 0, "y": 16, "z": 32 }
+            },
+            {
+                "fileName": "DragonTailFirst",
+                "name": "DragonTailFirst",
+                "location": { "x": 0, "y": 0, "z": 30 },
+                "scale": { "x": 1, "y": 1, "z": 1 },
+                "center": { "x": 16, "y": 16, "z": 0 }
+            }	
+		]		
+		
     }
 }

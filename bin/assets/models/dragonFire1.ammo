@@ -10,8 +10,8 @@
         "life": 5,
         "grain": 2,
         "model": "CannonBall",
-        "launchSoundFile": "Dragonfire.mp3",
-        "impactSoundFile": "",
+        "launchSound": "Dragonfire",
+        "impactSound": "",
         "contactScript": "DragonFireScript"
     }
 }

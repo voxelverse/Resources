@@ -5,7 +5,7 @@
 	"description" : "First fly Animation for the dragon",
     "sound": 
 	{
-		"name" : "Flapping.mp3",
+		"name" : "Flapping",
 		"soundRangeMax" : 2000,
 		"soundRangeMin" : 10
 	},
@@ -27,7 +27,7 @@
 						"y": 0,
 						"z": -40
 					},
-					"time": 0.5,
+					"time": 500,
 					"type": "rotation_repeating"
 				}
 			]
@@ -46,7 +46,7 @@
 						"y": 0,
 						"z": 40
 					},
-					"time": 0.5,
+					"time": 500,
 					"type": "rotation_repeating"
 				}
 			]
@@ -60,7 +60,7 @@
 						"y": 0,
 						"z": 30
 					},
-					"time": 0.5,
+					"time": 500,
 					"type": "rotation_repeating"
 				}
 			]
@@ -74,7 +74,7 @@
 						"y": 0,
 						"z": -30
 					},
-					"time": 0.5,
+					"time": 500,
 					"type": "rotation_repeating"
 				}
 			]

@@ -9,7 +9,7 @@
 		},
 		{
 			"attachmentName": "DragonWingRight",
-			"location": {
+			"position": {
 				"x": -2,
 				"y": -5,
 				"z": -16
@@ -27,7 +27,7 @@
 		},
 		{
 			"attachmentName": "DragonWingLeft",
-			"location": {
+			"position": {
 				"x": -17,
 				"y": -5,
 				"z": -16

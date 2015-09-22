@@ -498,7 +498,7 @@
             }
         },
         {
-            "name": "Red Block",
+            "name": "Red",
             "image": "red.png",
             "id": 112,
             "category": "UTIL",
@@ -510,7 +510,7 @@
             }
         },
         {
-            "name": "Blue Block",
+            "name": "Blue",
             "image": "blue.png",
             "id": 113,
             "category": "UTIL",
@@ -522,7 +522,7 @@
             }
         },
         {
-            "name": "Green Block",
+            "name": "Green",
             "image": "green.png",
             "id": 114,
             "category": "UTIL",

@@ -1,14 +1,18 @@
 { "model":
 	{ 	"modelClass": "Dragon",
         "biomes": 
-		{	"layers": [
-                {	"data": "Dragon",
-                    "functionName": "LoadModelFromIVM"
+		{    "layers": [
+                {
+                    "functionName": "GenerateCube",
+                    "type": "Blue",
+                    "range": "0",
+                    "offset": "0"
                 }
             ]
+
         },
         "animations": [
-            { "name": "Starting", "guid":"starting.ajson" },
+            { "name": "Starting", "guid":"Starting.ajson" },
 			{ "name": "Fly", "guid":"Fly.ajson" },
 			{ "name": "Glide", "guid":"Glide.ajson" },
 			{ "name": "Land", "guid":"Land.ajson" },
@@ -17,73 +21,10 @@
 		],
         "children": [
             {
-                "fileName": "DragonWingRight",
-                "name": "WingRight",
-                "location": {
-                    "x": -5,
-                    "y": -20,
-                    "z": -19
-                },
-                "center": {
-                    "x": 32,
-                    "y": 36,
-                    "z": 32
-                },
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                }
-            },		
-            {
-                "fileName": "DragonWingLeft",
-                "name": "WingLeft",
-                "location": {
-                    "x": -27,
-                    "y": -14,
-                    "z": -19
-                },
-                "center": {
-                    "x": 32,
-                    "y": 32,
-                    "z": 32
-                },
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 180
-                }
-            },
-            {
-                "fileName": "DragonBreath",
-                "name": "Breath",
-                "location": {
-                    "z": -45,
-                    "y": 14,
-                    "x": 16
-                }
-            },
-            {
-                "fileName": "Saddle6",
-                "name": "Saddle",
-                "location": {
-                    "z": -16,
-                    "y": -22,
-                    "x": -16
-                }
-            },
-            {
-                "fileName": "DragonNeck",
-                "name": "DragonNeck",
-                "location": { "x": 0, "y": 0, "z": -16 }
-            },
-            {
-                "fileName": "DragonTailFirst",
-                "name": "DragonTailFirst",
-                "location": { "x": 0, "y": 0, "z": 30 },
-                "scale": { "x": 1, "y": 1, "z": 1 },
-                "center": { "x": 16, "y": 16, "z": 0 }
-            }	
+                "fileName": "DragonChest",
+                "name": "DragonChest",
+                "center": { "x": 16, "y": 16, "z": 32 }
+			}	
 		]		
     },
 	"controllableVoxelModel" : {
