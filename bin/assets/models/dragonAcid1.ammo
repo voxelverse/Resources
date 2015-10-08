@@ -8,7 +8,7 @@
 		"type" : 1,
 		"count" : 0,
 		"oxelType" : "DragonAcid",
-		"life" : 5,
+		"life" : 5000,
 		"grain" : 2,
 		"model" : "CannonBall",
 		"launchSound" : "Dragonfire",

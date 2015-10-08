@@ -1,6 +1,6 @@
 {
     "type": "state",
-	"name" : "starting",
+	"name" : "Starting",
 	"animationClass" : "MODEL_DRAGON_12",
 	"description" : "No transforms, starting position",
 	"animations": [

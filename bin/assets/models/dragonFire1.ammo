@@ -7,7 +7,7 @@
         "type": 2,
         "count": 10,
         "oxelType": "DragonFire",
-        "life": 5,
+        "life": 5000,
         "grain": 2,
         "model": "CannonBall",
         "launchSound": "Dragonfire",
