@@ -1928,6 +1928,64 @@
                 "ub": 0.0078125,
                 "vb": 0.2734375
             }
+        },
+        {
+            "name": "EDITCURSOR_HAND_LR",
+            "image": "invalid.png",
+            "id": 1005,
+            "category": "INTERNAL",
+            "light": {
+                "fullBright": "true"
+            },
+            "placeable": "false",
+            "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.5
+            },
+            "uv": {
+                "maxpix": 128,
+                "minpix": 128,
+                "top": 0,
+                "side": 0,
+                "bottom": 0,
+                "ut": 0.3125,
+                "vt": 0.3125,
+                "us": 0.3125,
+                "vs": 0.3125,
+                "ub": 0.3125,
+                "vb": 0.3125
+            }
+        },
+        {
+            "name": "EDITCURSOR_HAND_UD",
+            "image": "invalid.png",
+            "id": 1006,
+            "category": "INTERNAL",
+            "light": {
+                "fullBright": "true"
+            },
+            "placeable": "false",
+            "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.5
+            },
+            "uv": {
+                "maxpix": 128,
+                "minpix": 128,
+                "top": 0,
+                "side": 0,
+                "bottom": 0,
+                "ut": 0.3125,
+                "vt": 0.375,
+                "us": 0.3125,
+                "vs": 0.375,
+                "ub": 0.3125,
+                "vb": 0.375
+            }
         }
     ]
 }
