@@ -3,7 +3,7 @@
 	<copy id="voxel_model">			<![CDATA[Voxel Model]]></copy>
 	<copy id="sandbox_list">		<![CDATA[Sandbox List]]></copy>
 	<copy id="model_add">			<![CDATA[Add Model...]]></copy>
-	<copy id="model_delete">		<![CDATA[Delete Model]]></copy>
+	<copy id="model_delete">		<![CDATA[Delete Model...]]></copy>
 	<copy id="model_detail">		<![CDATA[Model Detail]]></copy>
 	<copy id="animation_add">		<![CDATA[Add Animation...]]></copy>
 	<copy id="animation_delete">	<![CDATA[Delete Animation]]></copy>
