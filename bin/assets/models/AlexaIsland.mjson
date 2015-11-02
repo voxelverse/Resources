@@ -1,12 +1,8 @@
-{
-    "model": {
-        "editable": "true",
-        "template": "false",
-        "biomes": {
-            "layers": [
-                {
-                    "data": "AlexaIsland",
-                    "functionName": "LoadModelFromIVM"
+{ "model": 
+	{ "biomes": 
+		{ "layers": [
+                { "data": "AlexaIsland",
+                  "functionName": "LoadModelFromIVM"
                 }
             ]
         }
