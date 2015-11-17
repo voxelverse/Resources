@@ -314,7 +314,8 @@
             "id": 107,
             "category": "LIQUID",
             "solid": "false",
-            "flowable": [ 2, 8, 255 ],
+			"flowableComment" : "flowType, outMeters, downMeters, spreadTimeMS, scalable, changeIntoType",
+            "flowable": [ 2, 8, 4, 500, true, 149 ],
             "animated": "true",
             "interactions": [
                 { "PICK": [ "WATER", 25, "change" ] },
@@ -326,8 +327,9 @@
                 { "WATER": [ "WATER", 25, "change" ] },
                 { "AIR": [ "AIR", 25, "change" ] },
                 { "EARTH": [ "STONE", 25, "change" ] },
-                { "ASH_BURNING": [ "COAL", 25, "change" ] },
+                { "FIRE": [ "COAL", 25, "change" ] },
                 { "LAVA": [ "OBSIDIAN", 25, "change" ] },
+                { "MIST": [ "MIST", 100, "change" ] },
                 { "FLOATIUM": [ "WATER", 25, "change" ] } ],
             "color": {
                 "r": 1,
@@ -383,16 +385,19 @@
             "image": "bark.png",
             "id": 110,
             "category": "PLANT",
+            "flammable": [ 90, 10 ],
             "uv": {
                 "maxpix": 64,
                 "minpix": 1,
-                "top": 5,
+                "top": 1,
                 "side": 6,
-                "bottom": 5,
+                "bottom": 1,
                 "ut": 0.21875,
                 "vt": 0.3125,
                 "us": 0.75,
-                "vs": 0
+                "vs": 0,
+                "ub": 0.21875,
+                "vb": 0.3125
             }
         },
         {
@@ -405,11 +410,8 @@
                 "fullBright": "true"
             },
             "solid": "false",
-            "flowable": [
-                2,
-                8,
-                8
-            ],
+			"flowableComment" : "flowType, outMeters, downMeters, spreadTimeMS, scalable, changeIntoType",
+            "flowable": [ 2, 8, 16, 2000, true, 104 ],
             "animated": "true",
             "interactions": [
                 {
@@ -476,8 +478,8 @@
                     ]
                 },
                 {
-                    "ASH_BURNING": [
-                        "LAVA",
+                    "FIRE": [
+                        "WATER",
                         25,
                         "na"
                     ]
@@ -552,6 +554,7 @@
             "id": 115,
             "countColor": 255,
             "category": "AIR",
+			"idea" : "make clouds flow",
             "solid": "false",
             "color": {
                 "r": 1,
@@ -1053,11 +1056,7 @@
             "id": 144,
             "category": "AIR",
             "solid": "false",
-            "flowable": [
-                2,
-                8,
-                8
-            ],
+            "flowable": [ 2, 8, 8, 250, false ],
             "interactions": [
                 {
                     "PICK": [
@@ -1123,7 +1122,7 @@
                     ]
                 },
                 {
-                    "ASH_BURNING": [
+                    "FIRE": [
                         "FLOATIUM",
                         25,
                         "na"
@@ -1158,8 +1157,8 @@
             }
         },
         {
-            "name": "Burning Item",
-            "image": "ash_burning.png",
+            "name": "Fire",
+            "image": "fire.png",
             "id": 145,
             "category": "PLANT",
             "light": {
@@ -1168,38 +1167,58 @@
             "flame": "true",
             "solid": "false",
             "animated": "true",
+            "flowable": [ 2, 2, 8, 5000, false ],
+            "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.8
+            },
+            "uv": {
+                "maxpix": 16,
+                "minpix": 16,
+                "top": 7,
+                "side": 0,
+                "bottom": 7,
+                "ut": 0.9921875,
+                "vt": 0,
+                "us": 0.9921875,
+                "vs": 0,
+                "ub": 0.9921875,
+                "vb": 0
+            },
             "interactions": [
                 {
                     "PICK": [
-                        "ASH_BURNING",
+                        "FIRE",
                         25,
                         "change"
                     ]
                 },
                 {
                     "SHOVEL": [
-                        "ASH_BURNING",
+                        "FIRE",
                         50,
                         "change"
                     ]
                 },
                 {
                     "AXE": [
-                        "ASH_BURNING",
+                        "FIRE",
                         100,
                         "change"
                     ]
                 },
                 {
                     "BUCKET": [
-                        "ASH_BURNING",
+                        "FIRE",
                         100,
                         "collectInBucket"
                     ]
                 },
                 {
                     "DFIRE": [
-                        "ASH_BURNING",
+                        "FIRE",
                         100,
                         "change"
                     ]
@@ -1227,14 +1246,14 @@
                 },
                 {
                     "EARTH": [
-                        "ASH_BURNING",
+                        "FIRE",
                         25,
                         "change"
                     ]
                 },
                 {
-                    "ASH_BURNING": [
-                        "ASH_BURNING",
+                    "FIRE": [
+                        "FIRE",
                         25,
                         "change"
                     ]
@@ -1248,31 +1267,12 @@
                 },
                 {
                     "FLOATIUM": [
-                        "ASH_BURNING",
+                        "FIRE",
                         25,
                         "change"
                     ]
                 }
-            ],
-            "color": {
-                "r": 1,
-                "g": 1,
-                "b": 1,
-                "a": 0.8
-            },
-            "uv": {
-                "maxpix": 16,
-                "minpix": 16,
-                "top": 7,
-                "side": 0,
-                "bottom": 7,
-                "ut": 0.9921875,
-                "vt": 0,
-                "us": 0.9921875,
-                "vs": 0,
-                "ub": 0.9921875,
-                "vb": 0
-            }
+            ]
         },
         {
             "name": "Diamond",
@@ -1339,11 +1339,7 @@
             "countColor": 255,
             "category": "AIR",
             "solid": "false",
-            "flowable": [
-                2,
-                8,
-                8
-            ],
+            "flowable": [ 2, 0, 8, 1000, false, 100 ],
             "animated": "true",
             "color": {
                 "r": 1,
