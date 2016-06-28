@@ -9,40 +9,8 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="language" content="en" />
 	<link rel="shortcut icon" href="icon.ico">
-	<script type="text/javascript" src="swfobject.js"></script>
-	<script type="text/javascript">
-		var flashvars = {
-			guid: "81C7ACA6-E842-B640-A2D6-CF88E1E080DF" // this is an individual object that can be displayed
-		};
-		var params = {
-			wmode: "direct",
-			menu: "false",
-			scale: "noScale",
-			allowFullscreen: "true",
-			allowFullScreenInteractive: "true",
-			allowScriptAccess: "always"
-		};
-		var attributes = {
-			id:"VoxelVerse"
-		};
-		
-		swfobject.embedSWF("VoxelVerse.swf?"+Math.random()*321, 
-							   "altContent", 
-							   "100%", // could be 800 pixels too
-							   "100%", // could be 600 pixels too
-							   "15.0.0", 
-							   "expressInstall.swf", //URL for expressinstall, if available or false
-							   flashvars, 
-							   params, 
-							   attributes);		
-	</script>
+	<embed src="VoxelVerse.swf" width="100%" height="100%" wmode="direct" menu="false" scale="noScale" allowFullscreen="true" allowFullScreenInteractive="true" allowScriptAccess="always" >
+	<embed/>
+	</object>
 </head>
-<body>
-	<div id="altContent">
-		<h1>VoxelVerse</h1>
-		<p><a href="http://get.adobe.com/flashplayer/?no_redirect">Requires the Flash 15</a></p>
-		<p>Here's a video showing an OLD version in action (if you don't have flash):</p>
-		<iframe width="800" height="600" src="http://www.youtube-nocookie.com/embed/_5vqHNl6dVE" frameborder="0" allowfullscreen></iframe>
-	</div>
-</body>
 </html>
