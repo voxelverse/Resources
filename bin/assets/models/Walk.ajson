@@ -3,6 +3,8 @@
 	"name" : "Walk",
 	"animationClass" : "MODEL_DRAGON_12",
 	"description" : "First walk Animation for the dragon",
+	"clipVelocity" : 0.9,
+	"speedMultiplier" : 0.05,
 	"animations": [
 		{ 
 			"attachmentName": "DragonChest"

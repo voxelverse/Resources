@@ -1,5 +1,7 @@
 {
     "type": "state",
+	"clipVelocity" : 0.9,
+	"speedMultiplier" : 0.05,
 	"name" : "Land",
 	"animationClass" : "MODEL_DRAGON_12",
 	"description" : "First land Animation for the dragon",

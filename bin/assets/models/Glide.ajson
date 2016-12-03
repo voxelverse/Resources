@@ -1,5 +1,7 @@
 {
     "type": "state",
+	"clipVelocity" : 0.995,
+	"speedMultiplier" : 0.50,
 	"name" : "Glide",
 	"animationClass" : "MODEL_DRAGON_12",
 	"description" : "First glide animation for the dragon",	

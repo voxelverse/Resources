@@ -1,9 +1,11 @@
 {
     "type": "state",
+	"clipVelocity" : 1.005,
+	"speedMultiplier" : 1,
 	"name" : "Dive",
 	"animationClass" : "MODEL_DRAGON_12",
 	"description" : "First land Animation for the dragon",
-   "animations": [
+    "animations": [
 		{ 
 			"attachmentName": "DragonChest"
 		},

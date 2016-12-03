@@ -1,5 +1,7 @@
 {
     "type": "state",
+	"clipVelocity" : 0.995,
+	"speedMultiplier" : 0.50,
 	"name" : "Fly",
 	"animationClass" : "MODEL_DRAGON_12",
 	"description" : "First fly Animation for the dragon",
