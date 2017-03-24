@@ -1,35 +1,53 @@
 {
-    "model": {
-        "template": true,
-        "editable": false,
-        "modelClass": "Gun",
-		"name": "2 kg Cannon",
-		"desc": "Goes Boom Boom",
-		"grainSize": 5,
-		"script": [ 
-					{
-						"name": "FireProjectileScript" 
-					}
-				],
-		"children": [
-            {
-                "name": "Barrel",
-                "fileName": "CannonBarrelCopper",
-                "location": {
-                    "z": 0,
-                    "y": 0,
-                    "x": 0
-                }
-            },
-            {
-                "name": "Stand",
-				"fileName": "CannonStandPine",
-                "location": {
-                    "z": 0,
-                    "y": 0,
-                    "x": 0
-                }
-            }
+	"modelClass": "Gun",
+	"template": true,
+	"editable": false,
+	"name": "2 kg Cannon",
+	"desc": "Goes Boom Boom",
+	"biomes": 
+	{    "layers": [
+			{
+				"functionName": "GenerateCube",
+				"type": "Air",
+				"range": "5",
+				"offset": "5"
+			}
+		]
+
+	},
+	
+	"grainSize": 5,
+	"script": [ 
+				{
+					"name": "FireProjectileScript" 
+				}
+			],
+	"children": [
+		{
+			"name": "Barrel",
+			"fileName": "CannonBarrelCopper",
+			"location": {
+				"z": 0,
+				"y": 0,
+				"x": 0
+			}
+		},
+		{
+			"name": "Stand",
+			"fileName": "CannonStandPine",
+			"location": {
+				"z": 0,
+				"y": 0,
+				"x": 0
+			}
+		}
+	],
+	"gun": 
+	{ 
+		"reloadSpeed": 1000,
+		"ammos" : [
+		{ "guid" : "dragonFire1" },
+		{ "guid" : "dragonIce1" }
 		]
 	}
 }

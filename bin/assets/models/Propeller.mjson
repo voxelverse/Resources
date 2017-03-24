@@ -1,18 +1,16 @@
 {
- "model": {
-        "editable": true,
-        "template": false,
-        "animations": [
-            { "name": "Rotate" },
-			{ "name": "Stop" }
-		],
-		"biomes": {
-            "layers": [
-                {
-                    "data": "Propeller",
-                    "functionName": "LoadModelFromIVM"
-                }
-            ]
-        }
-    }
+	"editable": true,
+	"template": false,
+	"animations": [
+		{ "name": "Run", "guid":"Run.ajson" },
+		{ "name": "Stop", "guid":"Stop.ajson" }
+	],
+	"biomes": {
+		"layers": [
+			{
+				"data": "Propeller",
+				"functionName": "LoadModelFromIVM"
+			}
+		]
+	}
 }

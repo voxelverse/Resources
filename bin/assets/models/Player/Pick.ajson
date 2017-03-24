@@ -1,8 +1,12 @@
 {
+	"type": "state",
+	"name" : "Pick",
+	"animationClass" : "MODEL_BIPEDAL_10",
+	"description" : "Pick Animation for Avatar",
     "attachments": [
 		{
 			"fileName": "PickTest",
-			"attachsTo": "RightArm",
+			"attachsTo": "ArmRight",
 			"location": {
 				"x": 0,
 				"y": -16,
@@ -17,7 +21,7 @@
 	],
 	"animations": [
 		{
-			"attachmentName": "LeftArm",
+			"attachmentName": "ArmLeft",
 			"rotation": {
 				"x": 0,
 				"y": 0,
@@ -25,7 +29,7 @@
 			}
 		},
 		{
-			"attachmentName": "RightArm",
+			"attachmentName": "ArmRight",
 			"rotation": {
 				"x": -90,
 				"y": 0,
@@ -38,13 +42,13 @@
 						"y": 0,
 						"z": 30
 					},
-					"time": 0.1,
+					"time": 100,
 					"type": "rotation_repeating"
 				}
 			]
 		},
 		{
-			"attachmentName": "LeftThigh",
+			"attachmentName": "ThighLeft",
 			"rotation": {
 				"x": 0,
 				"y": 0,
@@ -52,7 +56,7 @@
 			}
 		},
 		{
-			"attachmentName": "RightThigh",
+			"attachmentName": "ThighRight",
 			"rotation": {
 				"x": 0,
 				"y": 0,
@@ -60,7 +64,15 @@
 			}
 		},
 		{
-			"attachmentName": "PlayerFoot",
+			"attachmentName": "FootRight",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			}
+		},
+		{
+			"attachmentName": "FootLeft",
 			"rotation": {
 				"x": 0,
 				"y": 0,

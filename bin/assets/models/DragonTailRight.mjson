@@ -1,12 +1,10 @@
 {
- "model": {
-        "biomes": {
-            "layers": [
-                {
-                    "data": "DragonTailRight",
-                    "functionName": "LoadModelFromIVM"
-                }
-            ]
-        }
-    }
+	"biomes": {
+		"layers": [
+			{
+				"data": "DragonTailRight",
+				"functionName": "LoadModelFromIVM"
+			}
+		]
+	}
 }

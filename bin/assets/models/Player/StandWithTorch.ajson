@@ -1,8 +1,12 @@
 {
+    "type": "state",
+	"name" : "Torch",
+	"animationClass" : "MODEL_BIPEDAL_10",
+	"description" : "Avatar hold Torch",
     "attachment": [
 		{
 			"fileName": "Torch",
-			"attachsTo": "LeftArm",
+			"attachsTo": "ArmLeft",
 			"location": {
 				"x": 0,
 				"y": -8,
@@ -15,9 +19,9 @@
 			}
 		}
 	],
-	"animation": [
+	"animations": [
 		{
-			"attachmentName": "LeftArm",
+			"attachmentName": "ArmLeft",
 			"rotation": {
 				"x": -90,
 				"y": 0,
@@ -36,7 +40,7 @@
 			]
 		},
 		{
-			"attachmentName": "RightArm",
+			"attachmentName": "ArmRight",
 			"rotation": {
 				"x": 0,
 				"y": 0,
@@ -56,7 +60,7 @@
 			
 		},		
 		{
-			"attachmentName": "LeftThigh",
+			"attachmentName": "ThighLeft",
 			"rotation": {
 				"x": 0,
 				"y": 0,
@@ -75,7 +79,7 @@
 			]
 		},
 		{
-			"attachmentName": "RightThigh",
+			"attachmentName": "ThighRight",
 			"rotation": {
 				"x": 0,
 				"y": 0,
@@ -94,7 +98,26 @@
 			]
 		},
 		{
-			"attachmentName": "PlayerFoot",
+			"attachmentName": "FootLeft",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"time": 0.1,
+					"type": "rotation_repeating"
+				}
+			]
+		},
+		{
+			"attachmentName": "FootRight",
 			"rotation": {
 				"x": 0,
 				"y": 0,

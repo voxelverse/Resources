@@ -1,12 +1,10 @@
 {
- "model": {
-       "biomes": {
-            "layers": [
-                {
-                    "data": "DragonWingTipLeft",
-                    "functionName": "LoadModelFromIVM"
-                }
-            ]
-        }
-    }
+   "biomes": {
+		"layers": [
+			{
+				"data": "DragonWingTipLeft",
+				"functionName": "LoadModelFromIVM"
+			}
+		]
+	}
 }

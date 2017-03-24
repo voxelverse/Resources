@@ -1,22 +1,9 @@
 {
-    "model": {
-        "biomes": {
-            "layers": [
-				{	"data": "DragonHead",
-					"functionName": "LoadModelFromIVM"
-				}
-            ]
-        },
-        "children": [
-            {
-                "fileName": "DragonBreath",
-                "name": "Breath",
-                "location": {
-                    "x": 16,
-                    "y": 13,
-                    "z": 6
-                }
-            }
+	"biomes": {
+		"layers": [
+			{	"data": "DragonHead",
+				"functionName": "LoadModelFromIVM"
+			}
 		]
-    }
+	}
 }

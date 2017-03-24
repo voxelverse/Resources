@@ -1,13 +1,11 @@
 {
-    "model": {
-	    "editable": true,
-        "biomes": {
-            "layers": [
-                {
-                    "data": "DragonTail",
-                    "functionName": "LoadModelFromIVM"
-                }
-            ]
-        }			
-    }
+	"editable": true,
+	"biomes": {
+		"layers": [
+			{
+				"data": "DragonTail",
+				"functionName": "LoadModelFromIVM"
+			}
+		]
+	}			
 }

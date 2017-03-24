@@ -1,7 +1,11 @@
 {
-	"animation": [
+	"type": "state",
+	"name" : "Ride",
+	"animationClass" : "MODEL_BIPEDAL_10",
+	"description" : "Ride Animation for Avatar",
+	"animations": [
 		{
-			"attachmentName": "LeftArm",
+			"attachmentName": "ArmLeft",
 			"rotation": {
 				"x": 0,
 				"y": 0,
@@ -9,7 +13,7 @@
 			}
 		},
 		{
-			"attachmentName": "RightArm",
+			"attachmentName": "ArmRight",
 			"rotation": {
 				"x": 0,
 				"y": 0,
@@ -17,7 +21,7 @@
 			}
 		},		
 		{
-			"attachmentName": "LeftThigh",
+			"attachmentName": "ThighLeft",
 			"rotation": {
 				"x": 0,
 				"y": 0,
@@ -25,7 +29,7 @@
 			}
 		},
 		{
-			"attachmentName": "RightThigh",
+			"attachmentName": "ThighRight",
 			"rotation": {
 				"x": 0,
 				"y": 0,
@@ -33,7 +37,15 @@
 			}
 		},
 		{
-			"attachmentName": "PlayerFoot",
+			"attachmentName": "FootRight",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			}
+		},
+		{
+			"attachmentName": "FootLeft",
 			"rotation": {
 				"x": 0,
 				"y": 0,

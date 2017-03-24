@@ -1,5 +1,9 @@
 {
-	"animation": [
+    "type": "state",
+	"name": "Stop",
+	"animationClass" : "MODEL_PROPELLER",
+	"description" : "Propeller stopped",
+	"animations": [
 		{
 			"attachmentName": "Propeller",
 			"transforms": [
@@ -9,7 +13,7 @@
 						"y": 0,
 						"z": 0
 					},
-					"time": 1,
+					"time": 1000,
 					"type": "rotate_to"
 				}
 			]

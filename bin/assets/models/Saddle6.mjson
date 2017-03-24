@@ -1,19 +1,16 @@
 {
-    "model": {
-        "modelClass": "Trigger",
-        "scripts": [
-            {
-                "name": "ControlBeastScript"
-            }
-        ],
-        "biomes": {
-            "layers": [
-                {
-                    "data": "Saddle6",
-                    "functionName": "LoadModelFromIVM"
-                }
-            ]
-        }		
-
-    }
+	"modelClass": "Trigger",
+	"scripts": [
+		{
+			"name": "ControlBeastScript"
+		}
+	],
+	"biomes": {
+		"layers": [
+			{
+				"data": "Saddle6",
+				"functionName": "LoadModelFromIVM"
+			}
+		]
+	}		
 }

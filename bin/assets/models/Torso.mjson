@@ -1,13 +1,62 @@
 {
-    "model": {
-	    "editable": true,
-        "biomes": {
-            "layers": [
-                {
-                    "data": "Torso",
-                    "functionName": "LoadModelFromIVM"
-                }
-            ]
-        }			
-    }
+	"editable": true,
+	"biomes": {
+		"layers": [
+			{
+				"data": "Torso",
+				"functionName": "LoadModelFromIVM"
+			}
+		]
+	},
+	"children": [
+		{
+			"fileName": "Head",
+			"location": {
+				"x": -8,
+				"y": 2,
+				"z": -7
+			},
+			"rotation": { 
+				"x": 0,
+				"y": 180,
+				"z": 0
+			}
+		},
+		{
+			"fileName": "ArmLeft",
+			"name" : "ArmLeft",
+			"location": {
+				"x": -4,
+				"y": 0,
+				"z": -2
+			}
+		},
+		{
+			"fileName": "ArmRight",
+			"name" : "ArmRight",
+			"location": {
+				"x": 4,
+				"y": 0,
+				"z": -2
+			}
+		},
+		{
+			"fileName": "ThighLeft",
+			"name" : "ThighLeft",
+			"location": {
+				"x": -2,
+				"y": -8,
+				"z": -2
+			}
+		},
+		{
+			"fileName": "ThighRight",
+			"name" : "ThighRight",
+			"location": {
+				"x": 2,
+				"y": -8,
+				"z": -2
+			}
+		}
+	]
 }

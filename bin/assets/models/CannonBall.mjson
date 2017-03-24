@@ -16,16 +16,14 @@
 				"optionalString":"document me",
 				"optionalInt":"document me"
 	},
-    "model": {
-        "template": "true",
-        "modelClass": "Projectile",
-        "biomes": {
-            "layers": [
-                {
-                    "data": "CannonBall",
-                    "functionName": "LoadModelFromIVM"
-                }
-            ]
-        }
-    }
+	"template": "true",
+	"modelClass": "Projectile",
+	"biomes": {
+		"layers": [
+			{
+				"data": "CannonBall",
+				"functionName": "LoadModelFromIVM"
+			}
+		]
+	}
 }

@@ -54,6 +54,11 @@
 	<copy id="group">				<![CDATA[Group]]></copy>
 	<copy id="manage">				<![CDATA[Manage]]></copy>
 	
+	<copy id="dup">					<![CDATA[Duplicate]]></copy>
+	<copy id="script_add">				<![CDATA[Add Script]]></copy>
+	<copy id="script_delete">				<![CDATA[Delete Script]]></copy>
+	<copy id="script_detail">				<![CDATA[Script Detail]]></copy>
+	
 	
 	
 	

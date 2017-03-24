@@ -1,15 +1,10 @@
 {
-    "model": {
-        "editable": false,
-        "template": false,
-		"modelClass": "Barrel",
-        "biomes": {
-            "layers": [
-                {
-                    "data": "CannonBarrelCopper",
-                    "functionName": "LoadModelFromIVM"
-                }
-            ]
-        }
-    }
+	"biomes": {
+		"layers": [
+			{
+				"data": "CannonBarrelCopper",
+				"functionName": "LoadModelFromIVM"
+			}
+		]
+	}
 }

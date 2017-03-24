@@ -1,14 +1,12 @@
 {
-    "model": {
-        "editable": "true",
-        "template": "false",
-        "biomes": {
-            "layers": [
-                {
-                    "data": "LightTest5x5",
-                    "functionName": "LoadModelFromIVM"
-                }
-            ]
-        }
-    }
+	"editable": "true",
+	"template": "false",
+	"biomes": {
+		"layers": [
+			{
+				"data": "LightTest5x5",
+				"functionName": "LoadModelFromIVM"
+			}
+		]
+	}
 }

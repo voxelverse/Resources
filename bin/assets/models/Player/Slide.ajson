@@ -1,7 +1,11 @@
 {
-	"animation": [
+    "type": "state",
+	"name" : "Slide",
+	"animationClass" : "MODEL_BIPEDAL_10",
+	"description" : "Slide Animation for Avatar",
+	"animations": [
 		{
-			"attachmentName": "LeftArm",
+			"attachmentName": "ArmLeft",
 			"rotation": {
 				"x": 0,
 				"y": 0,
@@ -14,13 +18,13 @@
 						"y": 0,
 						"z": 30
 					},
-					"time": 1,
+					"time": 1000,
 					"type": "rotation_repeating"
 				}
 			]
 		},
 		{
-			"attachmentName": "RightArm",
+			"attachmentName": "ArmRight",
 			"rotation": {
 				"x": 0,
 				"y": 0,
@@ -33,14 +37,14 @@
 						"y": 0,
 						"z": 30
 					},
-					"time": 1,
+					"time": 1000,
 					"type": "rotation_repeating"
 				}
 			]
 			
 		},		
 		{
-			"attachmentName": "LeftThigh",
+			"attachmentName": "ThighLeft",
 			"rotation": {
 				"x": 0,
 				"y": 0,
@@ -53,13 +57,13 @@
 						"y": 0,
 						"z": 0
 					},
-					"time": 0.1,
+					"time": 100,
 					"type": "rotation_repeating"
 				}
 			]
 		},
 		{
-			"attachmentName": "RightThigh",
+			"attachmentName": "ThighRight",
 			"rotation": {
 				"x": 0,
 				"y": 0,
@@ -72,13 +76,13 @@
 						"y": 0,
 						"z": 0
 					},
-					"time": 0.1,
+					"time": 100,
 					"type": "rotation_repeating"
 				}
 			]
 		},
 		{
-			"attachmentName": "PlayerFoot",
+			"attachmentName": "FootRight",
 			"rotation": {
 				"x": 0,
 				"y": 0,
@@ -91,7 +95,26 @@
 						"y": 0,
 						"z": 0
 					},
-					"time": 0.1,
+					"time": 100,
+					"type": "rotation_repeating"
+				}
+			]
+		},
+		{
+			"attachmentName": "FootLeft",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"time": 100,
 					"type": "rotation_repeating"
 				}
 			]

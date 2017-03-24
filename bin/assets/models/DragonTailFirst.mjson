@@ -1,21 +1,19 @@
 {
-    "model": {
-        "biomes": {
-            "layers": [
-                {
-                    "data": "DragonTailFirst",
-                    "functionName": "LoadModelFromIVM"
-                }
-            ]
-        },
-        "children": [
-            {
-                "fileName": "DragonTailSecond",
-                "name": "DragonTailSecond",
-                "location": { "x": 8, "y": 8, "z": 30 },
-                "center": { "x": 16, "y": 32, "z": 0 },
-                "scale": { "x": 0.5, "y": 0.5, "z": 1 }
-            }
+	"biomes": {
+		"layers": [
+			{
+				"data": "DragonTailFirst",
+				"functionName": "LoadModelFromIVM"
+			}
 		]
-    }
+	},
+	"children": [
+		{
+			"fileName": "DragonTailSecond",
+			"name": "DragonTailSecond",
+			"location": { "x": 8, "y": 8, "z": 30 },
+			"center": { "x": 16, "y": 32, "z": 0 },
+			"scale": { "x": 0.5, "y": 0.5, "z": 1 }
+		}
+	]
 }

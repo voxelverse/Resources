@@ -1,16 +1,14 @@
 {
-    "model": {
-        "modelClass": "Gun",
-        "biomes": {
-            "layers": [
-                {
-                    "functionName": "GenerateCube",
-                    "type": "Lava",
-                    "range": "0",
-                    "offset": "0"
-                }
-            ]
-        }
+	"modelClass": "Gun",
+	"biomes": {
+		"layers": [
+			{
+				"functionName": "GenerateCube",
+				"type": "Lava",
+				"range": "0",
+				"offset": "0"
+			}
+		]
 	},
 	"gun": 
 	{ 

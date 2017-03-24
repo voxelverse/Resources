@@ -1,32 +1,31 @@
-{ "model":
-	{ 	"modelClass": "Dragon",
-        "biomes": 
-		{    "layers": [
-                {
-                    "functionName": "GenerateCube",
-                    "type": "Blue",
-                    "range": "0",
-                    "offset": "0"
-                }
-            ]
+{
+  	"modelClass": "Dragon",
+	"biomes": 
+	{    "layers": [
+			{
+				"functionName": "GenerateCube",
+				"type": "Blue",
+				"range": "0",
+				"offset": "0"
+			}
+		]
 
-        },
-        "animations": [
-            { "name": "Starting", "guid":"Starting.ajson" },
-			{ "name": "Fly", "guid":"Fly.ajson" },
-			{ "name": "Glide", "guid":"Glide.ajson" },
-			{ "name": "Land", "guid":"Land.ajson" },
-			{ "name": "Walk", "guid":"Walk.ajson" },
-			{ "name": "Dive", "guid":"Dive.ajson" }
-		],
-        "children": [
-            {
-                "fileName": "DragonChest",
-                "name": "DragonChest",
-                "center": { "x": 16, "y": 16, "z": 32 }
-			}	
-		]		
-    },
+	},
+	"animations": [
+		{ "name": "Starting", "guid":"Starting.ajson" },
+		{ "name": "Fly", "guid":"Fly.ajson" },
+		{ "name": "Glide", "guid":"Glide.ajson" },
+		{ "name": "Land", "guid":"Land.ajson" },
+		{ "name": "Walk", "guid":"Walk.ajson" },
+		{ "name": "Dive", "guid":"Dive.ajson" }
+	],
+	"children": [
+		{
+			"fileName": "DragonChest",
+			"name": "DragonChest",
+			"center": { "x": 16, "y": 16, "z": 32 }
+		}	
+	],		
 	"controllableVoxelModel" : {
 		"clipFactor": 99,
 		"maxSpeed": 15
@@ -40,5 +39,4 @@
 	},
 	"dragon" : {
 	}
-	
 }
