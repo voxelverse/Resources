@@ -1,0 +1,86 @@
+{
+    "type": "state",
+	"name" : "Walk",
+	"animationClass" : "MODEL_DRAGON_12",
+	"description" : "First walk Animation for the dragon",
+	"clipVelocity" : 0.9,
+	"speedMultiplier" : 0.05,
+	"animations": [
+		{ 
+			"attachmentName": "DragonChest"
+		},
+		{
+			"attachmentName": "DragonWingRight",
+			"position": {
+				"x": -2,
+				"y": -5,
+				"z": -16
+			},
+			"rotation": {
+				"x": 90,
+				"y": 90,
+				"z": 0
+			},
+			"scale": {
+				"x": 0.8,
+				"y": 0.5,
+				"z": 0.4
+			}
+		},
+		{
+			"attachmentName": "DragonWingLeft",
+			"position": {
+				"x": -17,
+				"y": -5,
+				"z": -16
+			},
+			"rotation": {
+				"x": 90,
+				"y": 90,
+				"z": 180
+			},
+			"scale": {
+				"x": 0.8,
+				"y": 0.5,
+				"z": 0.4
+			}
+		},
+		{
+			"attachmentName": "DragonWingTipRight",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			}
+		},
+		{
+			"attachmentName": "DragonWingTipLeft",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			}
+		},
+		{
+			"attachmentName" : "DragonLeftFoot"
+		},
+		{
+			"attachmentName" : "DragonRightFoot"
+		},
+		{
+			"attachmentName" : "DragonTailFirst"
+		},
+		{
+			"attachmentName" : "DragonTailSecond"
+		},
+		{
+			"attachmentName" : "DragonTailThird"
+		},
+		{
+			"attachmentName" : "DragonNeck"
+		},
+		{
+			"attachmentName" : "DragonHead"
+		}
+	]			
+}

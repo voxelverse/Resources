@@ -1,8 +1,9 @@
 {
+	"editable": true,
 	"biomes": {
 		"layers": [
 			{
-				"data": "BjornIsland",
+				"data": "ArmLeft",
 				"functionName": "LoadModelFromIVM"
 			}
 		]

@@ -1,0 +1,33 @@
+{
+ "model": {
+        "biomes": {
+            "layers": [
+                {
+                    "data": "DragonWingLeft",
+                    "functionName": "LoadModelFromIVM"
+                }
+            ]
+        },
+        "children": [
+            {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "fileName": "DragonWingTipLeft",
+                "name": "WingTipLeft",
+                "location": {
+                    "x": 64,
+                    "y": 2,
+                    "z": 0
+                },
+                "center": {
+                    "x": 0,
+                    "y": 32,
+                    "z": 0
+                }
+            }
+		]
+    }
+}

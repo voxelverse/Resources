@@ -1,34 +1,32 @@
 {
-    "model": {
-        "editable": "true",
-        "template": "true",
-        "grainSize": 5,
-        "script": [
-            {
-                "name": "ControlObjectScript"
-            }
-        ],
-        "modelClass": "Trigger",
-        "biomes": {
-            "layers": [
-                {
-                    "functionName": "TestSolid",
-                    "type": "AIR",
-                    "range": "0",
-                    "offset": "0"
-                }
-            ]
-        },
-        "children": [
-            {
-                "location": {
-                    "z": -9,
-                    "y": 2,
-                    "x": 0
-                },
-                "instanceGuid": "7FFF7DEF-6529-9FFF-ADBC-AEF9AF70A0C3",
-                "fileName": "SteeringWheel"
-            }
-        ]
-    }
+	"editable": "true",
+	"template": "true",
+	"grainSize": 5,
+	"scripts": [
+		{
+			"name": "ControlObjectScript"
+		}
+	],
+	"modelClass": "Trigger",
+	"biomes": {
+		"layers": [
+			{
+				"functionName": "GenerateCube",
+				"type": "AIR",
+				"range": "0",
+				"offset": "5"
+			}
+		]
+	},
+	"children": [
+		{
+			"location": {
+				"z": -9,
+				"y": 2,
+				"x": 0
+			},
+			"name": "Steering Wheel",
+			"fileName": "SteeringWheel"
+		}
+	]
 }

@@ -1,0 +1,10 @@
+{ "model": 
+	{ "biomes": 
+		{ "layers": [
+				{ "data": "test",
+				  "functionName": "LoadModelFromIVM"
+				}
+			]
+		}
+	}
+}

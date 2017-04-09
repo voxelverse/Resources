@@ -1,14 +1,12 @@
 {
-    "model": {
-        "editable": false,
-        "template": false,
-        "biomes": {
-            "layers": [
-                {
-                    "data": "SteeringWheel",
-                    "functionName": "LoadModelFromIVM"
-                }
-            ]
-        }
-    }
+	"editable": false,
+	"template": false,
+	"biomes": {
+		"layers": [
+			{
+				"data": "SteeringWheel",
+				"functionName": "LoadModelFromIVM"
+			}
+		]
+	}
 }

@@ -1,14 +1,10 @@
 {
-    "model": {
-        "editable": "true",
-        "template": "false",
-        "biomes": {
-            "layers": [
-                {
-                    "data": "BjornCastle",
-                    "functionName": "LoadModelFromIVM"
-                }
-            ]
-        }
-    }
+	"biomes": {
+		"layers": [
+			{
+				"data": "BjornCastle",
+				"functionName": "LoadModelFromIVM"
+			}
+		]
+	}
 }

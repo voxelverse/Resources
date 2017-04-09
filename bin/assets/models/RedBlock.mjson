@@ -2,7 +2,7 @@
 	"biomes": {
 		"layers": [
 			{
-				"data": "BjornIsland",
+				"data": "RedBlock",
 				"functionName": "LoadModelFromIVM"
 			}
 		]

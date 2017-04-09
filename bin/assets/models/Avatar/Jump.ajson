@@ -1,0 +1,78 @@
+{
+	"type": "state",
+	"name" : "Jump",
+	"animationClass" : "MODEL_BIPEDAL_10",
+	"description" : "Jump Animation for Avatar",
+	"animations": [
+		{
+			"attachmentName": "ArmLeft",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": 0,
+						"y": 0,
+						"z": 45
+					},
+					"time": 500,
+					"type": "rotation_repeating"
+				}
+			]	 		
+		},
+		{
+			"attachmentName": "ArmRight",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": 0,
+						"y": 0,
+						"z": -45
+					},
+					"time": 500,
+					"type": "rotation_repeating"
+				}
+			]	 		
+		},		
+		{
+			"attachmentName": "ThighLeft",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			}
+		},
+		{
+			"attachmentName": "ThighRight",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			}
+		},
+		{
+			"attachmentName": "FootLeft",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			}
+		},
+		{
+			"attachmentName": "FootRight",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			}
+		}			
+	]			
+}

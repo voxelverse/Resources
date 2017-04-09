@@ -1,0 +1,100 @@
+{
+    "type": "state",
+	"name" : "Fall",
+	"animationClass" : "MODEL_BIPEDAL_10",
+	"description" : "Fall Animation for Avatar",
+	"animations": [
+		{
+			"attachmentName": "ArmLeft",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			}
+		},
+		{
+			"attachmentName": "ArmRight",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			}
+		},
+		{
+			"attachmentName": "ThighLeft",
+			"rotation": {
+				"x": 20,
+				"y": 0,
+				"z": 0
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": -40,
+						"y": 0,
+						"z": 0
+					},
+					"time": 500,
+					"type": "rotation_repeating"
+				}
+			]
+		},
+		{
+			"attachmentName": "ThighRight",
+			"rotation": {
+				"x": -20,
+				"y": 0,
+				"z": 0
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": 40,
+						"y": 0,
+						"z": 0
+					},
+					"time": 500,
+					"type": "rotation_repeating"
+				}
+			]
+		},
+		{
+			"attachmentName": "FootLeft",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": -40,
+						"y": 0,
+						"z": 0
+					},
+					"time": 500,
+					"type": "rotation_repeating"
+				}
+			]
+		},
+		{
+			"attachmentName": "FootRight",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": -40,
+						"y": 0,
+						"z": 0
+					},
+					"time": 500,
+					"type": "rotation_repeating"
+				}
+			]
+		}		
+	]			
+}

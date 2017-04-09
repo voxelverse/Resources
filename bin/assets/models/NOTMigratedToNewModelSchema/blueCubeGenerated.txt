@@ -1,0 +1,13 @@
+{
+    "model": {
+        "modelClass": "Avatar",
+        "biomes": {
+            "layers": [
+                {
+                    "functionName": "GenerateCube",
+                    "type": "BLUE"
+                }
+            ]
+        }
+	}
+}

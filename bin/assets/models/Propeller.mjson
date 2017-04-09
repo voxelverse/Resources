@@ -1,6 +1,10 @@
 {
 	"editable": true,
 	"template": false,
+	"modelClass":"Propeller",
+	"propeller": {
+	    "rotationRate": 1440
+	},
 	"animations": [
 		{ "name": "Run", "guid":"Run.ajson" },
 		{ "name": "Stop", "guid":"Stop.ajson" }

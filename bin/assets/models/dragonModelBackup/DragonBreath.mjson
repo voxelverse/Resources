@@ -1,0 +1,26 @@
+{
+    "model": {
+        "modelClass": "Gun",
+        "biomes": {
+            "layers": [
+                {
+                    "functionName": "GenerateCube",
+                    "type": "Lava",
+                    "range": "0",
+                    "offset": "0"
+                }
+            ]
+        }
+	},
+	"gun": 
+	{ 
+		"reloadSpeed": 1000,
+		"ammos" : [
+		{ "guid" : "dragonFire1" },
+		{ "guid" : "dragonIce1" },
+		{ "guid" : "dragonAcid1" },
+		{ "guid" : "dragonWater1" },
+		{ "guid" : "dragonEarth1" }
+		]
+	}
+}

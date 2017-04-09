@@ -1,0 +1,56 @@
+{
+	"biomes": {
+		"layers": [
+			{
+				"functionName": "LoadModelFromIVM",
+				"data": "Zeppelin190"
+			}
+		]
+	},
+	"name": "Default Name",
+	"editable": true,
+	"template": false,
+	"modelClass": "Ship",
+			
+	
+	"children": [
+            {
+                "name": "Ship Control Trigger",
+                "modelGuid": "70346000-7B6F-3BDE-B9DE-2C539DAB05F3",
+                "location": {
+                    "z": 702,
+                    "y": 416,
+                    "x": 408
+                }
+            },
+            {
+                "name": "LeftEngine",
+                "modelGuid": "E066ACF8-51DB-09D6-2D2B-77B54E7C8081",
+                "location": {
+                    "z": 776,
+                    "y": 380,
+                    "x": 336
+                },
+                "rotation": {
+                    "z": -90,
+                    "y": 0,
+                    "x": 0
+                }
+            },
+            {
+                "name": "RightEngine",
+                "modelGuid": "E066ACF8-51DB-09D6-2D2B-77B54E7C8081",
+                "location": {
+                    "z": 776,
+                    "y": 380,
+                    "x": 480
+                },
+                "rotation": {
+                    "z": 90,
+                    "y": 0,
+                    "x": 0
+                }
+            }
+		
+	]
+}

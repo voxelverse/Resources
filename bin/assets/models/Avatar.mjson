@@ -1,0 +1,32 @@
+{
+	"modelClass": "Avatar",
+	"biomes": {
+		"layers": [
+			{
+				"functionName": "GenerateCube",
+				"offset" : 4,
+				"type": "BLUE"
+			}
+		]
+	},
+	"animations": [
+		{ "name": "Stand", "guid":"Stand.ajson" },
+		{ "name": "Jump", "guid":"Jump.ajson" },
+		{ "name": "Fall", "guid":"Fall.ajson" },
+		{ "name": "Walk", "guid":"Walk.ajson" },
+		{ "name": "Pick", "guid":"Pick.ajson" },
+		{ "name": "Ride", "guid":"Ride.ajson" },
+		{ "name": "Slide", "guid":"Slide.ajson" }
+		
+	],
+	"children": [
+		{
+			"fileName": "Torso",
+			"location": {
+				"x": 0,
+				"y": 8,
+				"z": 5
+			}
+		}
+	]
+}

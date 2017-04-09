@@ -1,0 +1,122 @@
+{
+	"type": "state",
+	"name" : "Walk",
+	"animationClass" : "MODEL_BIPEDAL_10",
+	"description" : "Walk Animation for Avatar",
+	"animations": [
+		{
+			"attachmentName": "ArmLeft",
+			"rotation": {
+				"x": 10,
+				"y": 0,
+				"z": 0
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": -20,
+						"y": 0,
+						"z": 0
+					},
+					"time": 500,
+					"type": "rotation_repeating"
+				}
+			]
+		},
+		{
+			"attachmentName": "ArmRight",
+			"rotation": {
+				"x": -10,
+				"y": 0,
+				"z": 0
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": 20,
+						"y": 0,
+						"z": 0
+					},
+					"time": 500,
+					"type": "rotation_repeating"
+				}
+			]
+		},
+		{
+			"attachmentName": "ThighLeft",
+			"rotation": {
+				"x": 20,
+				"y": 0,
+				"z": 0
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": -40,
+						"y": 0,
+						"z": 0
+					},
+					"time": 500,
+					"type": "rotation_repeating"
+				}
+			]
+		},
+		{
+			"attachmentName": "ThighRight",
+			"rotation": {
+				"x": -20,
+				"y": 0,
+				"z": 0
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": 40,
+						"y": 0,
+						"z": 0
+					},
+					"time": 500,
+					"type": "rotation_repeating"
+				}
+			]
+		},
+		{
+			"attachmentName": "FootRight",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": 60,
+						"y": 0,
+						"z": 0
+					},
+					"time": 500,
+					"type": "rotation_repeating"
+				}
+			]
+		},
+		{
+			"attachmentName": "FootLeft",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": 60,
+						"y": 0,
+						"z": 0
+					},
+					"time": 500,
+					"type": "rotation_repeating"
+				}
+			]
+		}		
+	]			
+}

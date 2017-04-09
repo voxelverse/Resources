@@ -1,0 +1,120 @@
+{
+    "type": "state",
+	"clipVelocity" : 0.995,
+	"speedMultiplier" : 0.50,
+	"name" : "Glide",
+	"animationClass" : "MODEL_DRAGON_12",
+	"description" : "First glide animation for the dragon",	
+	"animations": [
+		{ 
+			"attachmentName": "DragonChest"
+		},
+		{
+			"attachmentName": "DragonWingRight",
+			"position": {
+				"x": -9,
+                "y": -20,
+                "z": -24
+            },
+			"scale": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"time": 500,
+					"type": "rotate_to"
+				}
+			]
+		},
+		{
+			"attachmentName": "DragonWingLeft",
+			"position": {
+				"x": -22,
+				"y": -15,
+				"z": -24
+			},
+			"scale": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": 0,
+						"y": 0,
+						"z": 180
+					},
+					"time": 500,
+					"type": "rotate_to"
+				}
+			]
+		},
+		{
+			"attachmentName": "DragonWingTipLeft",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"time": 1000,
+					"type": "rotate_to"
+				}
+			]
+		},
+		{
+			"attachmentName": "DragonWingTipRight",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"time": 1000,
+					"type": "rotate_to"
+				}
+			]
+		},
+		{
+			"attachmentName" : "DragonLeftFoot"
+		},
+		{
+			"attachmentName" : "DragonRightFoot"
+		},
+		{
+			"attachmentName" : "DragonTailFirst"
+		},
+		{
+			"attachmentName" : "DragonTailSecond"
+		},
+		{
+			"attachmentName" : "DragonTailThird"
+		},
+		{
+			"attachmentName" : "DragonNeck"
+		},
+		{
+			"attachmentName" : "DragonHead"
+		}	
+	]			
+}

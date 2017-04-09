@@ -3,7 +3,7 @@
 	"editable": "true",
 	"template": "true",
 	"grainSize": 7,
-	"script": [
+	"scripts": [
 		{
 			"name": "ControlBeastScript"
 		}

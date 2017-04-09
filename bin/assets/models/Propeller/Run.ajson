@@ -1,0 +1,30 @@
+{
+    "type": "state",
+	"name": "Run",
+	"animationClass" : "MODEL_PROPELLER",
+	"description" : "Propeller rotation",
+	
+    "sound": 
+	{
+		"name" : "Propeller",
+		"soundRangeMax" : 2000,
+		"soundRangeMin" : 10
+	},
+	"animations": [
+		{
+			"type": "Variable",
+			"attachmentName": "Propeller",
+			"transforms": [
+				{
+					"delta": {
+						"x": 0,
+						"y": 0,
+						"z": 1440
+					},
+					"time": -1,
+					"type": "rotation"
+				}
+			]
+		}		
+	]			
+}

@@ -1,0 +1,27 @@
+{
+	"editable": true,
+	"biomes": {
+		"layers": [
+			{
+				"data": "ThighLeft",
+				"functionName": "LoadModelFromIVM"
+			}
+		]
+	},
+	"children": [
+		{
+			"fileName": "FootLeft",
+			"name" : "FootLeft",
+			"location": {
+				"x": 0,
+				"y": -8,
+				"z": 0
+			},
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			}
+		}
+	]
+}

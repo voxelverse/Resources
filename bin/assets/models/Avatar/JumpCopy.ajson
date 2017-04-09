@@ -1,0 +1,122 @@
+{
+	"type": "state",
+	"name" : "JumpCopy",
+	"animationClass" : "MODEL_BIPEDAL_10",
+	"description" : "JumpCopy Animation for A`vatar",
+	"animations": [
+		{
+			"attachmentName": "ArmLeft",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": 0,
+						"y": 0,
+						"z": 90
+					},
+					"time": 0.1,
+					"type": "rotate_to"
+				}
+			]
+		},
+		{
+			"attachmentName": "ArmRight",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": 0,
+						"y": 0,
+						"z": -90
+					},
+					"time": 0.1,
+					"type": "rotate_to"
+				}
+			]
+		},		
+		{
+			"attachmentName": "ThighLeft",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": -45,
+						"y": 0,
+						"z": 0
+					},
+					"time": 0.1,
+					"type": "rotate_to"
+				}
+			]
+		},
+		{
+			"attachmentName": "ThighRight",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": -45,
+						"y": 0,
+						"z": 0
+					},
+					"time": 0.1,
+					"type": "rotate_to"
+				}
+			]
+		},
+		{
+			"attachmentName": "FootLeft",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": 45,
+						"y": 0,
+						"z": 0
+					},
+					"time": 0.1,
+					"type": "rotate_to"
+				}
+			]
+		}		,
+		{
+			"attachmentName": "FootRight",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": 45,
+						"y": 0,
+						"z": 0
+					},
+					"time": 0.1,
+					"type": "rotate_to"
+				}
+			]
+		}		
+	]			
+}

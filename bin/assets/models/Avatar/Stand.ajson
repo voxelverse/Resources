@@ -1,0 +1,139 @@
+{
+    "type": "state",
+	"name" : "Stand",
+	"animationClass" : "MODEL_BIPEDAL_10",
+	"description" : "Stand Animation for Avatar",
+    "attachment": [
+		{
+			"fileName": "Torch",
+			"attachsTo": "ArmLeft",
+			"location": {
+				"x": 0,
+				"y": -16,
+				"z": 2
+			},
+			"rotation": {
+				"x": 90,
+				"y": 0,
+				"z": 0
+			}
+		}
+	],
+	"animations": [
+		{
+			"attachmentName": "ArmLeft",
+			"rotation": {
+				"x": -90,
+				"y": 0,
+				"z": 0
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"time": 100,
+					"type": "rotation_repeating"
+				}
+			]
+		},
+		{
+			"attachmentName": "ArmRight",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"time": 100,
+					"type": "rotation_repeating"
+				}
+			]
+			
+		},		
+		{
+			"attachmentName": "ThighLeft",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"time": 100,
+					"type": "rotation_repeating"
+				}
+			]
+		},
+		{
+			"attachmentName": "ThighRight",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"time": 100,
+					"type": "rotation_repeating"
+				}
+			]
+		},
+		{
+			"attachmentName": "FootRight",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"time": 100,
+					"type": "rotation_repeating"
+				}
+			]
+		},
+		{
+			"attachmentName": "FootLeft",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"time": 100,
+					"type": "rotation_repeating"
+				}
+			]
+		}		
+	]			
+}

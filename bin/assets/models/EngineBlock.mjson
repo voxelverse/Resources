@@ -1,0 +1,27 @@
+{
+	"biomes": {
+		"layers": [
+			{
+				"functionName": "LoadModelFromIVM",
+				"data": "EngineBlock"
+			}
+		]
+	},
+	"modelClass": "Engine",
+	"engine" :{
+		"maxThrust": 1
+		},
+	"grainSize": 5,
+	"template": false,
+	"children": [
+		{
+			"name": "Propeller",
+			"fileName": "Propeller",
+			"location": {
+				"z": -4,
+				"y": 0,
+				"x": 0
+			}
+		}
+	]
+}

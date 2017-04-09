@@ -1,0 +1,23 @@
+{
+    "model": {
+        "modelClass": "Avatar",
+        "biomes": {
+            "layers": [
+                {
+                    "functionName": "GenerateCube",
+                    "type": "AIR"
+                }
+            ]
+        },
+        "children": [
+            {
+                "fileName": "Torso",
+                "location": {
+                    "x": 0,
+                    "y": 8,
+                    "z": 5
+                }
+            }
+		]
+	}
+}
