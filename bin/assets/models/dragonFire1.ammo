@@ -1,17 +1,15 @@
 {
-    "ammo": {
-        "key": "dragonFire1",
-        "name": "Dragon Fire 1",
-        "accuracy": 0.1,
-        "velocity": 200,
-        "type": 2,
-        "count": 10,
-        "oxelType": "DragonFire",
-        "life": 5000,
-        "grain": 2,
-        "model": "CannonBall",
-        "launchSound": "Dragonfire",
-        "impactSound": "",
-        "contactScript": "DragonFireScript"
-    }
+	"guid": "dragonFire1",
+	"name": "Dragon Fire 1",
+	"accuracy": 0.1,
+	"velocity": 200,
+	"type": 2,
+	"count": 10,
+	"oxelType": "DragonFire",
+	"life": 5000,
+	"grain": 2,
+	"model": "CannonBall",
+	"launchSound": "Dragonfire",
+	"impactSound": "",
+	"contactScript": "DragonFireScript"
 }

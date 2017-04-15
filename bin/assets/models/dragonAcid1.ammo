@@ -1,18 +1,15 @@
 {
-	"ammo" : 
-	{
-        "key": "dragonAcid1",
-        "name": "Dragon Acid 1",
-		"accuracy" : 0.1,
-		"velocity" : 400,
-		"type" : 1,
-		"count" : 0,
-		"oxelType" : "DragonAcid",
-		"life" : 5000,
-		"grain" : 2,
-		"model" : "CannonBall",
-		"launchSound" : "Dragonfire",
-		"impactSound" : "CannonBallExploding",
-		"contactScript" : "AcidScript"
-	}
+	"guid": "dragonAcid1",
+	"name": "Dragon Acid 1",
+	"accuracy" : 0.1,
+	"velocity" : 400,
+	"type" : 1,
+	"count" : 0,
+	"oxelType" : "DragonAcid",
+	"life" : 5000,
+	"grain" : 2,
+	"model" : "CannonBall",
+	"launchSound" : "Dragonfire",
+	"impactSound" : "CannonBallExploding",
+	"contactScript" : "AcidScript"
 }

@@ -3,14 +3,14 @@
 	"name" : "Torch",
 	"animationClass" : "MODEL_BIPEDAL_10",
 	"description" : "Avatar hold Torch",
-    "attachment": [
+    "attachments": [
 		{
 			"fileName": "Torch",
 			"attachsTo": "ArmLeft",
 			"location": {
 				"x": 0,
-				"y": -8,
-				"z": -10
+				"y": -16,
+				"z": 2
 			},
 			"rotation": {
 				"x": 90,
@@ -34,7 +34,7 @@
 						"y": 0,
 						"z": 0
 					},
-					"time": 0.1,
+					"time": 100,
 					"type": "rotation_repeating"
 				}
 			]
@@ -53,7 +53,7 @@
 						"y": 0,
 						"z": 0
 					},
-					"time": 0.1,
+					"time": 100,
 					"type": "rotation_repeating"
 				}
 			]
@@ -73,7 +73,7 @@
 						"y": 0,
 						"z": 0
 					},
-					"time": 0.1,
+					"time": 100,
 					"type": "rotation_repeating"
 				}
 			]
@@ -92,26 +92,7 @@
 						"y": 0,
 						"z": 0
 					},
-					"time": 0.1,
-					"type": "rotation_repeating"
-				}
-			]
-		},
-		{
-			"attachmentName": "FootLeft",
-			"rotation": {
-				"x": 0,
-				"y": 0,
-				"z": 0
-			},
-			"transforms": [
-				{
-					"delta": {
-						"x": 0,
-						"y": 0,
-						"z": 0
-					},
-					"time": 0.1,
+					"time": 100,
 					"type": "rotation_repeating"
 				}
 			]
@@ -130,7 +111,26 @@
 						"y": 0,
 						"z": 0
 					},
-					"time": 0.1,
+					"time": 100,
+					"type": "rotation_repeating"
+				}
+			]
+		},
+		{
+			"attachmentName": "FootLeft",
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"transforms": [
+				{
+					"delta": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"time": 100,
 					"type": "rotation_repeating"
 				}
 			]

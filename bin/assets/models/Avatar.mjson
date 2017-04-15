@@ -10,13 +10,14 @@
 		]
 	},
 	"animations": [
-		{ "name": "Stand", "guid":"Stand.ajson" },
-		{ "name": "Jump", "guid":"Jump.ajson" },
-		{ "name": "Fall", "guid":"Fall.ajson" },
-		{ "name": "Walk", "guid":"Walk.ajson" },
-		{ "name": "Pick", "guid":"Pick.ajson" },
-		{ "name": "Ride", "guid":"Ride.ajson" },
-		{ "name": "Slide", "guid":"Slide.ajson" }
+		{ "name": "Stand", "guid":"Stand" },
+		{ "name": "StandWithTorch", "guid":"StandWithTorch" },
+		{ "name": "Jump", "guid":"Jump" },
+		{ "name": "Fall", "guid":"Fall" },
+		{ "name": "Walk", "guid":"Walk" },
+		{ "name": "Pick", "guid":"Pick" },
+		{ "name": "Ride", "guid":"Ride" },
+		{ "name": "Slide", "guid":"Slide" }
 		
 	],
 	"children": [

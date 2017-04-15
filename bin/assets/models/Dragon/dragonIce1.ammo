@@ -1,17 +1,15 @@
 {
-    "ammo": {
-        "key": "dragonIce1",
-        "name": "Dragon Ice 1",
-        "accuracy": 0.05,
-        "velocity": 200,
-        "type": 2,
-        "count": 10,
-        "oxelType": "DragonIce",
-        "life": 5000,
-        "grain": 2,
-        "model": "CannonBall",
-        "launchSound": "Dragonfire",
-        "impactSound": "CannonBallExploding",
-        "contactScript": "IceScript"
-    }
+	"key": "dragonIce1",
+	"name": "Dragon Ice 1",
+	"accuracy": 0.05,
+	"velocity": 200,
+	"type": 2,
+	"count": 10,
+	"oxelType": "DragonIce",
+	"life": 5000,
+	"grain": 2,
+	"model": "CannonBall",
+	"launchSound": "Dragonfire",
+	"impactSound": "CannonBallExploding",
+	"contactScript": "IceScript"
 }

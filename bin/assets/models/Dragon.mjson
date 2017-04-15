@@ -12,12 +12,12 @@
 
 	},
 	"animations": [
-		{ "name": "Starting", "guid":"Starting.ajson" },
-		{ "name": "Fly", "guid":"Fly.ajson" },
-		{ "name": "Glide", "guid":"Glide.ajson" },
-		{ "name": "Land", "guid":"Land.ajson" },
-		{ "name": "Walk", "guid":"Walk.ajson" },
-		{ "name": "Dive", "guid":"Dive.ajson" }
+		{ "name": "Starting", "guid":"Starting" },
+		{ "name": "Fly", "guid":"Fly" },
+		{ "name": "Glide", "guid":"Glide" },
+		{ "name": "Land", "guid":"Land" },
+		{ "name": "Walk", "guid":"Walk" },
+		{ "name": "Dive", "guid":"Dive" }
 	],
 	"children": [
 		{

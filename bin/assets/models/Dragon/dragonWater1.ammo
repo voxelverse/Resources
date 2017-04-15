@@ -1,18 +1,15 @@
 {
-	"ammo" : 
-	{
-        "key": "dragonWater1",
-        "name": "Dragon Water 1",
-		"accuracy" : 0.05,
-		"velocity" : 200,
-		"type" : 1,
-		"count" : 10,
-		"oxelType" : "DragonWater",
-		"life" : 5000,
-		"grain" : 3,
-		"model" : "CannonBall",
-		"launchSound" : "Dragonfire",
-		"impactSound" : "CannonBallExploding",
-		"contactScript" : "ExplosionScript"
-	}
+   "key": "dragonWater1",
+	"name": "Dragon Water 1",
+	"accuracy" : 0.05,
+	"velocity" : 200,
+	"type" : 1,
+	"count" : 10,
+	"oxelType" : "DragonWater",
+	"life" : 5000,
+	"grain" : 3,
+	"model" : "CannonBall",
+	"launchSound" : "Dragonfire",
+	"impactSound" : "CannonBallExploding",
+	"contactScript" : "ExplosionScript"
 }

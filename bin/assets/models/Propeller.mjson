@@ -6,8 +6,8 @@
 	    "rotationRate": 1440
 	},
 	"animations": [
-		{ "name": "Run", "guid":"Run.ajson" },
-		{ "name": "Stop", "guid":"Stop.ajson" }
+		{ "name": "Run", "guid":"Run" },
+		{ "name": "Stop", "guid":"Stop" }
 	],
 	"biomes": {
 		"layers": [

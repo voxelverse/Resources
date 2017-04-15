@@ -55,9 +55,15 @@
 	<copy id="manage">				<![CDATA[Manage]]></copy>
 	
 	<copy id="dup">					<![CDATA[Duplicate]]></copy>
-	<copy id="script_add">				<![CDATA[Add Script]]></copy>
-	<copy id="script_delete">				<![CDATA[Delete Script]]></copy>
-	<copy id="script_detail">				<![CDATA[Script Detail]]></copy>
+	<copy id="script_add">			<![CDATA[Add Script]]></copy>
+	<copy id="script_delete">		<![CDATA[Delete Script]]></copy>
+	<copy id="script_detail">		<![CDATA[Script Detail]]></copy>
+	<copy id="add_a_script">		<![CDATA[Add A Script]]></copy>
+	<copy id="add_an_animation">	<![CDATA[Add An Animation]]></copy>
+	
+	<copy id="ammo_add">			<![CDATA[Add Amoo]]></copy>
+	<copy id="ammo_delete">			<![CDATA[Delete Ammo]]></copy>
+	<copy id="ammo_detail">			<![CDATA[Ammo Detail]]></copy>
 	
 	
 	
