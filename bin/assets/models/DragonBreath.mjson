@@ -12,6 +12,7 @@
 	},
 	"gun": 
 	{ 
+		"weaponType": "Dragon",
 		"reloadSpeed": 1000,
 		"ammos" : [
 		{ "guid" : "dragonFire1" },

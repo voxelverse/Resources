@@ -1,4 +1,5 @@
 {
+	"weaponType": "Dragon",
 	"guid": "dragonEarth1",
 	"name": "Dragon Earth 1",
 	"accuracy" : 0.05,

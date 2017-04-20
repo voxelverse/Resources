@@ -8,8 +8,7 @@
                 }
             ]
         },
-        "guid": "Zeppelin190",
-        "name": "Default Name",
+        "name": "Zeppelin 190",
         "editable": true,
         "template": false,
         "modelClass": "Ship",

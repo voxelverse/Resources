@@ -1,4 +1,5 @@
 {
+	"weaponType": "Dragon",
    "guid": "dragonWater1",
 	"name": "Dragon Water 1",
 	"accuracy" : 0.05,
