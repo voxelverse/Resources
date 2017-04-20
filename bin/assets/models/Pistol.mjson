@@ -4,9 +4,9 @@
 		"layers": [
 			{
 				"functionName": "GenerateCube",
-				"type": "Red",
+				"type": "Refined Iron",
 				"range": "0",
-				"offset": "0"
+				"offset": "4"
 			}
 		]
 	},

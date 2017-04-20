@@ -1,13 +1,14 @@
 {
 	"name": "Bullet 1",
-	"accuracy" : 0.05,
+	"accuracy" : 0.1,
 	"velocity" : 200,
 	"type" : 1,
 	"count" : 10,
-	"oxelType" : "Iron",
+	"oxelType" : "Refined Iron",
 	"life" : 5000,
 	"grain" : 0,
 	"weaponType": "HandGun",
 	"model" : "CannonBall",
-	"contactScript" : "ExplosionScript"
+	"launchSound" : "PistolShot",
+	"impactSound" : ""
 }
