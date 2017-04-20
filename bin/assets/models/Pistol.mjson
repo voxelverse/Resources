@@ -1,0 +1,21 @@
+{
+	"modelClass": "Gun",
+	"biomes": {
+		"layers": [
+			{
+				"functionName": "GenerateCube",
+				"type": "Red",
+				"range": "0",
+				"offset": "0"
+			}
+		]
+	},
+	"gun": 
+	{ 
+		"weaponType": "HandGun",
+		"reloadSpeed": 1000,
+		"ammos" : [
+		{ "guid" : "bullet1" }
+		]
+	}
+}

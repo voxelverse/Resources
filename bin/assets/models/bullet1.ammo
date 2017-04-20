@@ -1,0 +1,13 @@
+{
+	"name": "Bullet 1",
+	"accuracy" : 0.05,
+	"velocity" : 200,
+	"type" : 1,
+	"count" : 10,
+	"oxelType" : "Iron",
+	"life" : 5000,
+	"grain" : 0,
+	"weaponType": "HandGun",
+	"model" : "CannonBall",
+	"contactScript" : "ExplosionScript"
+}

@@ -1,0 +1,12 @@
+{
+	"name": "Bullet 1",
+	"accuracy" : 0.02,
+	"velocity" : 200,
+	"type" : 1,
+	"count" : 10,
+	"oxelType" : "Iron",
+	"life" : 5000,
+	"grain" : 0,
+	"weaponType": "Rifle",
+	"model" : "CannonBall"
+}
