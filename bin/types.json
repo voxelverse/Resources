@@ -12,35 +12,6 @@
     },
     "types": [
         {
-            "name": "Model",
-            "image": "invalid.png",
-            "id": 99,
-            "category": "AIR",
-            "placeable": "false",
-            "solid": "false",
-            "attn": "50",
-            "color": {
-                "r": 1,
-                "g": 1,
-                "b": 1,
-                "a": 0.01
-            },
-            "uv": {
-                "maxpix": 64,
-                "minpix": 1,
-                "top": 0,
-                "side": 0,
-                "bottom": 0,
-                "ut": 0.90625,
-                "vt": 0.888671875,
-                "us": 0.90625,
-                "vs": 0.888671875,
-                "ub": 0.90625,
-                "vb": 0.888671875
-            },
-            "comment": "Model is not alpha, since if it is, it makes engine allocate a alpha vertex buffer, this is just a placeholder for a model"
-        },
-        {
             "name": "Air",
             "image": "invalid.png",
             "id": 100,
@@ -740,6 +711,32 @@
 			}
         },
         {
+            "name": "NoQuads",
+            "category": "INTERNAL",
+            "placeable": "false",
+            "image": "glass.png",
+            "id": 125,
+            "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.99
+            },
+			"uv": {
+				"maxpix": 32,
+				"minpix": 32,
+				"top": 0,
+				"side": 0,
+				"bottom": 0,
+				"ut": 0.09375,
+				"vt": 0.28125,
+				"us": 0.09375,
+				"vs": 0.28125,
+				"ub": 0.09375,
+				"vb": 0.28125
+			}
+        },
+        {
             "name": "Life Free or Die",
             "image": "yourbrandhere.png",
             "id": 129,
@@ -1137,9 +1134,9 @@
                 }
             ],
             "color": {
-                "r": 0.6,
-                "g": 0.7,
-                "b": 0.8,
+                "r": 0.5,
+                "g": 0.6,
+                "b": 0.7,
                 "a": 0.8
             },
             "uv": {
@@ -1410,11 +1407,11 @@
                 "top": 0,
                 "side": 0,
                 "bottom": 0,
-                "ut": 0.125,
+                "ut": 0.21875,
                 "vt": 0.3125,
-                "us": 0.125,
+                "us": 0.21875,
                 "vs": 0.3125,
-                "ub": 0.125,
+                "ub": 0.21875,
                 "vb": 0.3125
             }
         },
@@ -1472,9 +1469,36 @@
 			}
         },
         {
+            "name": "Blue Glass",
+            "image": "blueGlass.png",
+            "id": 155,
+            "category": "GLASS",
+            "light": { "fullBright": "true" },
+            "color": {
+                "r": 0,
+                "g": 0,
+                "b": 1,
+                "a": 0.99
+            },
+			"uv": {
+				"maxpix": 32,
+				"minpix": 32,
+				"top": 0,
+				"side": 0,
+				"bottom": 0,
+				"ut": 0.09375,
+				"vt": 0.28125,
+				"us": 0.09375,
+				"vs": 0.28125,
+				"ub": 0.09375,
+				"vb": 0.28125
+			}
+        },
+        {
             "name": "Custom Color Glass(not implemented yet)",
             "image": "colorWheelG.png",
             "id": 167,
+            "placeable": "false",
             "category": "EARTH",
             "color": {
                 "r": 1,
@@ -1501,6 +1525,7 @@
             "image": "colorWheel.png",
             "id": 165,
             "category": "EARTH",
+            "placeable": "false",
             "solid": "false",
             "light": { "fullBright": "true" },
             "color": {
@@ -1626,7 +1651,7 @@
             }
         },
         {
-            "name": "Bright Blue Light",
+            "name": "Blue Light",
             "image": "lightBlue.png",
             "id": 991,
             "category": "LIGHT",
@@ -1793,20 +1818,17 @@
                 "a": 0.5
             }
         },
-        {
-            "name": "EDITCURSOR_SQUARE",
+		        {
+            "name": "EDITCURSOR_SQUARE_BACKUP",
             "image": "invalid.png",
             "id": 1000,
             "category": "INTERNAL",
-            "light": {
-                "fullBright": "true"
-            },
             "placeable": "false",
             "color": {
                 "r": 1,
                 "g": 1,
                 "b": 1,
-                "a": 0.5
+                "a": 0.99
             },
             "uv": {
                 "maxpix": 32,
@@ -1827,9 +1849,6 @@
             "image": "invalid.png",
             "id": 1001,
             "category": "INTERNAL",
-            "light": {
-                "fullBright": "true"
-            },
             "placeable": "false",
             "color": {
                 "r": 1,
@@ -1856,9 +1875,6 @@
             "image": "invalid.png",
             "id": 1002,
             "category": "INTERNAL",
-            "light": {
-                "fullBright": "true"
-            },
             "placeable": "false",
             "color": {
                 "r": 1,
@@ -1884,9 +1900,6 @@
             "name": "EDITCURSOR_CYLINDER_ANIMATED",
             "image": "invalid.png",
             "id": 1003,
-            "light": {
-                "fullBright": "true"
-            },
             "category": "INTERNAL",
             "placeable": "false",
             "color": {
@@ -1914,9 +1927,6 @@
             "image": "invalid.png",
             "id": 1004,
             "category": "INTERNAL",
-            "light": {
-                "fullBright": "true"
-            },
             "placeable": "false",
             "color": {
                 "r": 1,
@@ -1943,9 +1953,6 @@
             "image": "invalid.png",
             "id": 1005,
             "category": "INTERNAL",
-            "light": {
-                "fullBright": "true"
-            },
             "placeable": "false",
             "color": {
                 "r": 1,
@@ -1972,9 +1979,6 @@
             "image": "invalid.png",
             "id": 1006,
             "category": "INTERNAL",
-            "light": {
-                "fullBright": "true"
-            },
             "placeable": "false",
             "color": {
                 "r": 1,

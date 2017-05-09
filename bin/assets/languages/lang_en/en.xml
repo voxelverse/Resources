@@ -64,7 +64,7 @@
 	<copy id="ammo_add">			<![CDATA[Add Ammo]]></copy>
 	<copy id="ammo_delete">			<![CDATA[Delete Ammo]]></copy>
 	<copy id="ammo_detail">			<![CDATA[Ammo Detail]]></copy>
-	<copy id="Can_use_these_ammos"> <![CDATA[Can use these ammos]]></copy>
+	<copy id="can_use_these_ammos"> <![CDATA[Can use these ammos]]></copy>
 	
 	
 	
